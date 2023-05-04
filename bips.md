@@ -97,7 +97,6 @@
     <br />
     <h3>
       How do BIPs get accepted and deployed
-      <br />
       into <bitcoin></bitcoin>?
     </h3>
   </p>
@@ -112,8 +111,8 @@
   <table>
     <tr>
       <td>
-        <div class="large squiggly-vert squiggly-vert-1"></div>
-        <div class="large squiggly-vert squiggly-vert-2"></div>
+        <div class="medium squiggly-vert squiggly-vert-1"></div>
+        <div class="medium squiggly-vert squiggly-vert-2"></div>
       </td>
       <td>
         <p>
@@ -123,8 +122,8 @@
         </p>
       </td>
       <td>
-        <div class="large squiggly-vert squiggly-vert-1"></div>
-        <div class="large squiggly-vert squiggly-vert-2"></div>
+        <div class="medium squiggly-vert squiggly-vert-1"></div>
+        <div class="medium squiggly-vert squiggly-vert-2"></div>
       </td>
     </tr>
   </table>
@@ -160,8 +159,8 @@
   <table>
     <tr>
       <td>
-        <div class="medium squiggly-vert squiggly-vert-1"></div>
-        <div class="medium squiggly-vert squiggly-vert-2"></div>
+        <div class="small squiggly-vert squiggly-vert-1"></div>
+        <div class="small squiggly-vert squiggly-vert-2"></div>
       </td>
       <td>
         <p>
@@ -170,8 +169,8 @@
         </p>
       </td>
       <td>
-        <div class="medium squiggly-vert squiggly-vert-1"></div>
-        <div class="medium squiggly-vert squiggly-vert-2"></div>
+        <div class="small squiggly-vert squiggly-vert-1"></div>
+        <div class="small squiggly-vert squiggly-vert-2"></div>
       </td>
     </tr>
   </table>
@@ -354,8 +353,8 @@
   <table>
     <tr>
       <td>
-        <div class="x-large squiggly-vert squiggly-vert-1"></div>
-        <div class="x-large squiggly-vert squiggly-vert-2"></div>
+        <div class="large squiggly-vert squiggly-vert-1"></div>
+        <div class="large squiggly-vert squiggly-vert-2"></div>
       </td>
       <td class="text-left">
         Reasons why a BIP may be rejected:
@@ -374,8 +373,8 @@
         <br />
       </td>
       <td>
-        <div class="x-large squiggly-vert squiggly-vert-1"></div>
-        <div class="x-large squiggly-vert squiggly-vert-2"></div>
+        <div class="large squiggly-vert squiggly-vert-1"></div>
+        <div class="large squiggly-vert squiggly-vert-2"></div>
       </td>
     </tr>
   </table>

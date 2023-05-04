@@ -1,6 +1,11 @@
 /* ~~/styles/fonts.css */
 
 @font-face {
+  font-family: 'Coffee and Crafts';
+  src: url('./coffee-and-crafts.ttf');
+}
+
+@font-face {
   font-family: 'Niramit Light';
   src: url('./niramit-light.ttf');
 }

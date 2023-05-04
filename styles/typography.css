@@ -1,10 +1,5 @@
 /* ~~/styles/fonts.css */
 
-* {
-  font-family: 'Niramit Light';
-  font-weight: 200;
-}
-
 bitcoin {
   font-family: 'Ubuntu Bold Italic';
 }
@@ -12,31 +7,31 @@ bitcoin:after {
   content: 'bitcoin';
 }
 
+/* english headeers */
 h1, h2, h3 {
-  font-family: 'Niramit Light Italic';
+  font-family: 'Coffee and Crafts';
   font-weight: 200;
   font-style: italic;
   padding-bottom: 0.3cm;
   line-height: 1.1;
 }
-
 h1 {
-  font-size: 1.4cm;
+  font-size: 1.8cm;
   border-bottom: 0 none transparent;
 }
-
 h2 {
-  font-size: .75cm;
+  font-size: 1cm;
 }
-
 h3 {
-  font-size: .45cm;
-  line-height: 1.2;
+  font-size: .6cm;
   margin-left: 1cm;
   margin-right: 1cm;
 }
-
 /* english paragraphs */
+* {
+  font-family: 'Coffee and Crafts';
+  font-weight: 200;
+}
 p {
   font-size: .45cm;
   line-height: .5cm;
@@ -45,7 +40,27 @@ p {
   text-align: justify;
 }
 
+/* thai headers */
+.th h1, .th h2, .th h3 {
+  font-family: 'Niramit Light Italic';
+}
+.th h1 {
+  font-size: 1.4cm;
+  border-bottom: 0 none transparent;
+}
+.th h2 {
+  font-size: .75cm;
+}
+.th h3 {
+  font-size: .45cm;
+  line-height: 1.2;
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
 /* thai paragraphs */
+.th * {
+  font-family: 'Niramit Light';
+}
 .th p {
   font-size: .40cm;
   line-height: .55cm;
