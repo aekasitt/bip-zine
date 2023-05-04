@@ -24,7 +24,7 @@ This repository is meant to be used with Visual Studio Code with the recommended
 1. Sometimes hangs. When unsuccessful, try try again.
 1. Voila!
 
-### Tip
+### Tips
 
 1. Use `<bitcoin></bitcoin>` tag in your translation to inject "bitcoin" with original branding
   using bold and italicized Ubuntu font.
@@ -32,3 +32,10 @@ This repository is meant to be used with Visual Studio Code with the recommended
 ## Demonstration
 
 ![demonstration](./demo.gif)
+
+### Acknowledgements
+
+1. English font named "Coffee and Craft"s" font by [Misti's Fonts](https://mistifonts.com/coffee-and-crafts/)
+  `Free for personal use and non-profit use`
+1. Thai font named "Niramit" by [Cadson Demak](https://github.com/cadsondemak/Niramit)
+  `SIL Open Font License 1.1`
