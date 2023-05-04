@@ -39,3 +39,5 @@ This repository is meant to be used with Visual Studio Code with the recommended
   `Free for personal use and non-profit use`
 1. Thai font named "Niramit" by [Cadson Demak](https://github.com/cadsondemak/Niramit)
   `SIL Open Font License 1.1`
+1. `bitcoin` logo font "Ubuntu" by [Dalton Maag](https://design.ubuntu.com/font)
+  `...distributed under an open licence and you are expressly encouraged to experiment, modify, share and improve.`
