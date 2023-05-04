@@ -15,5 +15,9 @@ This repository is meant to be used with Visual Studio Code with the recommended
 1. Open the Markdown file
 1. Press `F1` or `Ctrl+Shift+P`
 1. Type `export` and select below
-   * `markdown-pdf: Export (pdf)`
+   * `Markdown PDF: Export (pdf)`
 1. Voila!
+
+## Demonstration
+
+![demonstration](./demo.gif)
