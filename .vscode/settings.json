@@ -1,0 +1,11 @@
+{
+  "markdown-pdf.displayHeaderFooter": false,
+  "markdown-pdf.styles": [
+    "styles/doodles.css",
+    "styles/fonts.css",
+    "styles/lines.css",
+    "styles/margins.css",
+    "styles/pages.css",
+    "styles/typography.css"
+  ],
+}

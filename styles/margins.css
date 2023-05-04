@@ -1,0 +1,15 @@
+/* ~~/styles/margins.css */
+
+@page {
+  margin-top: 0cm;
+  margin-left: .5cm;
+  margin-right: .5cm;
+  margin-bottom: 0cm;
+  padding-top: 0cm;
+  padding-bottom: 0cm;
+}
+
+.contents-centered {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,70 @@
+/* ~~/styles/fonts.css */
+
+* {
+  font-family: 'Niramit Light';
+  font-weight: 200;
+}
+
+bitcoin {
+  font-family: 'Ubuntu Bold Italic';
+}
+bitcoin:after {
+  content: 'bitcoin';
+}
+
+h1, h2, h3 {
+  font-family: 'Niramit Light Italic';
+  font-weight: 200;
+  font-style: italic;
+  padding-bottom: 0.3cm;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 1.4cm;
+  border-bottom: 0 none transparent;
+}
+
+h2 {
+  font-size: .75cm;
+}
+
+h3 {
+  font-size: .45cm;
+  line-height: 1.2;
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+
+/* english paragraphs */
+p {
+  font-size: .45cm;
+  line-height: .5cm;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  text-align: justify;
+}
+
+/* thai paragraphs */
+.th p {
+  font-size: .40cm;
+  line-height: .55cm;
+  padding-left: 1.25cm;
+  padding-right: 1.25cm;
+}
+
+/* alignments */
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* special cases */
+
+.translator-note {
+  font-size: .3cm;
+}

@@ -1,0 +1,39 @@
+/* ~~/styles/zine-page.css */
+
+body {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+  padding: 0;
+}
+
+zine-page {
+  display: block;
+  position: relative;
+  height: 14.5cm;
+  min-height: 14.5cm;
+  min-width: 10cm;
+  width: 10cm;
+  text-align: center;
+  padding-bottom: .5cm;
+  padding-top: .5cm;
+}
+zine-page.left {
+  margin-right: .5cm;
+}
+zine-page.right {
+  margin-left: .5cm;
+}
+
+zine-page > page-num {
+  bottom: .2cm;
+  padding: 0;
+  position: absolute;
+}
+zine-page.left > page-num {
+  left: .2cm;
+}
+zine-page.right > page-num {
+  right: .2cm;
+}
