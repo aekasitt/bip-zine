@@ -95,7 +95,7 @@
     </thead>
     <tbody style='border: 1px solid;'>
       <tr>
-        <td>
+        <td style='margin: 0 auto; padding-right: 0;'>
           <img
             alt="Alice's Five BTC"
             src='./static/alice-five.svg'
@@ -103,9 +103,9 @@
             >
         </td>
         <td style='font-size: .48cm; letter-spacing: -.1cm; opacity: .6; transform: rotate(90deg);'>
-          ∾∾∾∾∾∾∾∾∾∾∾
+          ∾∾∾∾∾∾∾∾∾∾∾∾
         </td>
-        <td>
+        <td style='margin: 0 auto; padding-left: 0;'>
           <img
             alt="Alice's Four BTC"
             src='./static/alice-four.svg'
@@ -114,16 +114,16 @@
         </td>
       </tr>
       <tr>
-        <td>
+        <td style='margin: 0 auto; padding-right: 0;'>
           <img
             alt="Bob's Five BTC"
             src='./static/bob-five.svg'
             style='object-fit: contain; width: 2.4cm;'
             ></td>
         <td style='font-size: .48cm; letter-spacing: -.1cm; opacity: .6; transform: rotate(90deg);'>
-          ∾∾∾∾∾∾∾∾∾∾∾
+          ∾∾∾∾∾∾∾∾∾∾∾∾
         </td>
-        <td>
+        <td style='margin: 0 auto; padding-left: 0;'>
           <img
             alt="Bob's One BTC"
             src='./static/bob-six.svg'
@@ -191,7 +191,7 @@
     </thead>
     <tbody style='border: 1px solid;'>
       <tr>
-        <td>
+        <td style='margin: 0 auto; padding-right: 0;'>
           <img
             alt="Alice's Five BTC"
             src='./static/alice-five.svg'
@@ -199,9 +199,9 @@
             >
         </td>
         <td style='font-size: .48cm; letter-spacing: -.1cm; opacity: .6; transform: rotate(90deg);'>
-          ∾∾∾∾∾∾∾∾∾∾∾
+          ∾∾∾∾∾∾∾∾∾∾∾∾
         </td>
-        <td>
+        <td style='margin: 0 auto; padding-left: 0;'>
           <img
             alt="Alice's Four BTC"
             src='./static/alice-four.svg'
@@ -212,9 +212,9 @@
       <tr>
         <td>&nbsp;</td>
         <td style='font-size: .48cm; letter-spacing: -.1cm; opacity: .6; transform: rotate(90deg);'>
-          ∾∾∾∾∾∾∾∾∾∾
+          ∾∾∾∾∾∾∾∾∾∾∾∾
         </td>
-        <td>
+        <td style='margin: 0 auto; padding-left: 0;'>
           <img
             alt="Bob's One BTC"
             src='./static/bob-one.svg'
