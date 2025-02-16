@@ -76,6 +76,12 @@
   </h3>
 </zine-page>
 
+<zine-page class='left'>
+  <page-num>
+    6
+  </page-num>
+</zine-page>
+
 <zine-page class='right'>
   <page-num>
     3
@@ -150,6 +156,7 @@
   <page-num>
     2
   </page-num>
+  <br />
   <div class='squiggly squiggly-1'></div>
   <div class='squiggly squiggly-2'></div>
   <table>
@@ -224,8 +231,90 @@
       </tr>
     </tbody>
   </table>
-  <outlined-right-arrow class='first' style='bottom: 5cm; position: absolute; right: 7.2cm;'>
+  <outlined-right-arrow class='first' style='bottom: 4.2cm; position: absolute; right: 7.2cm;'>
   </outlined-right-arrow>
-  <outlined-right-arrow class='second' style='bottom: 5cm; position: absolute; right: 1.2cm;'>
+  <outlined-right-arrow class='second' style='bottom: 4.2cm; position: absolute; right: 1.2cm;'>
   </outlined-right-arrow>
+</zine-page>
+
+<zine-page class='right'>
+  <page-num>
+    7
+  </page-num>
+  <br />
+  
+</zine-page>
+
+<zine-page class='left'>
+  <page-num>
+    4
+  </page-num>
+  <br />
+  <p style='font-size: 1.24rem; letter-spacing: .1rem; text-align: justify;'>
+    The way the 1 BTC from Alice was combined with Bob's
+    existing 5 BTC is an example of
+    <span style='font-weight: bold;'>
+      coin consolidation
+    </span>
+    More coins = more fees, so it's best to minimize the
+    number of coins in your wallet. Instead of using one
+    tx to transfer BTC, and another to consolidate coins,
+    payjoin lets you do both at once, increasing tx
+    throughput! That's not all. What if Bob wants to use
+    the BTC from Alice to pay his friend Charlie? Or
+    maybe he wants to open a Lightning channel? Using a
+    tx for extra stuff like this is called a
+    <span style='font-weight: bold;'>tx cut-through.</span>
+    By allowing
+    additional inputs and outputs, payjoin lets you pack
+    more activity into a tx. Alice was already going to
+    send BTC to Bob. Payjoin is just a way to raise the
+    tx throughput and save on fees that would have gone
+    to creating additional txs. It's the
+    <span style='text-decoration: underline'>
+      simplest
+    </span>
+    way to do transaction
+    batching between two people.
+  </p>
+</zine-page>
+
+<zine-page class='right'>
+  <page-num>
+    5
+  </page-num>
+  <br />
+  <h3 style='text-align: center'>
+    ☆ Privacy ☆
+  </h3>
+  <p style='font-size: 1.24rem; text-align: justify;'>
+    Blockchain surveillance uses heuristics to make assumptions
+    about the nature of a tx, including how much BTC was 
+    transferred, how much the sender got back as change,
+    and who owns which coins. The most common heuristic
+    for tracking users is the assumption that all inputs
+    belong to the sender.
+  </p>
+  <p style='font-size: 1.24rem; text-align: justify;'>
+    Payjoin lets senders and receivers work together in
+    a way that breaks one or more of these heuristics.
+    After Alice and Bob used payjoin, the assumption that
+    all inputs came from Alice is no longer true. The tx
+    looks the same as if Alice provided multiple inputs.
+  </p>
+  <table class="contents-centered">
+    <tr>
+      <td>
+        <small-splash-left></small-splash-left>
+      </td>
+      <td style='font-size: 1.24rem; font-weight: bold;'>
+        In this regard, payjoin instantly brings
+        privacy to on-chain transactions, right
+        at the moment of payment.
+      </td>
+      <td>
+        <small-splash-right></small-splash-right>
+      </td>
+    </tr>
+  </table>
 </zine-page>
