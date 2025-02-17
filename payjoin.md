@@ -2,63 +2,51 @@
   <page-num>
     8
   </page-num>
+  <p style='font-size: 1.24rem; text-align: justify;'>
+    At the time of writing, BIP-77 is still being finalized,
+    and payjoin adoption is relatively low. However the 
+    payjoin team has been hard at work on impressive new
+    tools and docs. There's no time like the present to
+    implement it and improve base layer tx!
+  </p>
+  <hr/>
+  <p style='font-size: 1.24rem; text-align: justify;'>
+    Payjoin is an elegant solution for increasing scalability
+    and preserving privacy. It saves block space (lower fees
+    for all!) and weaken blockchain surveillance heuristics.
+    Even those that don't use it benefit, but it's a team
+    effort! The advantages are proportional to the level of
+    adoption. Everyone stands to gain from widespread payjoin
+    use.
+  </p>
+  <hr/>
+  <p class='text-center' style='font-size: 1.24rem;'>
+    Thanks for reading! Ready to learn more?
+    Want free copies of this and other zines? Visit
+  </p>
   <table class='contents-centered'>
-    <tr>
-      <td>
-        <small-splash-left>
-        </small-splash-left>
+    <tr style='border: none; margin: auto 0;'>
+      <td colspan='3' style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
+        ～～～～～～～～～～～～～～～～～
       </td>
-      <td>
-        <h2>
-          Thanks for reading!
-        </h2>
+    </tr>
+    <tr style='border: none; margin: auto 0;'>
+      <td style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'>
+        〜〜〜〜
       </td>
-      <td>
-        <small-splash-right>
-        </small-splash-right>
+      <td style='border: none; font-size: 1.24rem;'>
+        https://satsie.dev/zines
+      </td>
+      <td style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'>
+        〜〜〜～
+      </td>
+    </tr>
+    <tr style='border: none; margin: auto 0;'>
+      <td colspan='3' style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
+        ～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <h3>
-    Want to learn more?
-  </h3>
-  <p class='text-left'>
-    <arrow-right class='first' />
-    check out the complete list of BIPs:
-    github.com/bitcoin/bips
-  </p>
-  <p class='text-left'>
-    <arrow-right class='second' />
-    start following the <bitcoin></bitcoin>
-    dev mailing list. You'll be among the
-    first to hear about new BIPs and updates
-    to ones in progress
-  </p>
-  <br />
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <table>
-    <tr>
-      <td>
-        <div class='x-small squiggly-vert squiggly-vert-1'></div>
-        <div class='x-small squiggly-vert squiggly-vert-2'></div>
-      </td>
-      <td>
-        <p class='text-center'>
-          Still want more? Head over to 
-          https://satsie.dev/bips
-          <br />
-          for additional resources
-        </p>
-      </td>
-      <td>
-        <div class='x-small squiggly-vert squiggly-vert-1'></div>
-        <div class='x-small squiggly-vert squiggly-vert-2'></div>
-      </td>
-    </tr>
-  </table>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
 </zine-page>
 
 <zine-page class='right'>
@@ -115,7 +103,7 @@
   <page-num>
     3
   </page-num>
-  <p style='text-align: left;'>
+  <p style='font-size: 1.24rem; letter-spacing: .1rem; text-align: left;'>
     With payjoin, the receiver also contributes an input. Let's
     say Bob already has 5 BTC in his wallet and he wants to use
     that in a payjoin tx. It would look like this:
@@ -168,11 +156,11 @@
       </tr>
     </tbody>
   </table>
-  <outlined-right-arrow class='first' style='position: absolute; right: 7.2cm; top: 5.6cm; '>
+  <outlined-right-arrow class='first' style='bottom: 8.12cm; position: absolute; right: 7.2cm;'>
   </outlined-right-arrow>
-  <outlined-right-arrow class='second' style='position: absolute; right: 1.2cm; top: 5.6cm;'>
+  <outlined-right-arrow class='second' style='bottom: 8.12cm; position: absolute; right: 1.2cm;'>
   </outlined-right-arrow>
-  <p style='text-align: left;'>
+  <p style='font-size: 1.24rem; letter-spacing: .1rem; text-align: left;'>
     So why is this good? The first benefit is <strong>scalability.</strong>
     By definition, payjoin does some tx batching. In both scenarios, Bob
     ends up with a total of 6 BTC, but there's a slight difference in how
@@ -195,7 +183,7 @@
         <div class='medium squiggly-vert squiggly-vert-2'></div>
       </td>
       <td>
-        <p>
+        <p style='font-size: 1.24rem; letter-spacing: .1rem; text-align: justify;'>
           Payjoin is a technique for batching <bitcoin></bitcoin>
           transactions while preserving privacy and blockspace.
         </p>
@@ -208,15 +196,15 @@
   </table>
   <div class='squiggly squiggly-1'></div>
   <div class='squiggly squiggly-2'></div>
-  <p style='text-align: left;'>
+  <p style='font-size: 1.12rem; letter-spacing: .1rem; text-align: left;'>
     Recall that:
+    <ol style='font-size: 1.12rem; letter-spacing: .1rem; text-align: left;'>
+      <li><bitcoin></bitcoin> uses the UTXO model, and</li>
+      <li>coins (transaction inputs and outputs) can be of any value</li>
+    </ol>
+    Pretend Alice has 5 BTC in her wallet and she sends 1 BTC to Bob.
+    The transaction (tx) looks like this:
   </p>
-  <ol style='text-align: left;'>
-    <li><bitcoin></bitcoin> uses the UTXO model, and</li>
-    <li>coins (transaction inputs and outputs) can be of any value</li>
-  </ol>
-  Pretend Alice has 5 BTC in her wallet and she sends 1 BTC to Bob.
-  The transaction (tx) looks like this:
   <table style='margin: 0 auto; max-width: 60%;'>
     <thead>
       <tr>
@@ -260,9 +248,9 @@
       </tr>
     </tbody>
   </table>
-  <outlined-right-arrow class='first' style='bottom: 4.2cm; position: absolute; right: 7.2cm;'>
+  <outlined-right-arrow class='first' style='bottom: 2cm; position: absolute; right: 7.2cm;'>
   </outlined-right-arrow>
-  <outlined-right-arrow class='second' style='bottom: 4.2cm; position: absolute; right: 1.2cm;'>
+  <outlined-right-arrow class='second' style='bottom: 2cm; position: absolute; right: 1.2cm;'>
   </outlined-right-arrow>
 </zine-page>
 
