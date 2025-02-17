@@ -183,7 +183,7 @@
         <div class='medium squiggly-vert squiggly-vert-2'></div>
       </td>
       <td>
-        <p style='font-size: 1.24rem; letter-spacing: .1rem; text-align: justify;'>
+        <p class='text-center' style='font-size: 1.24rem; letter-spacing: .1rem;'>
           Payjoin is a technique for batching <bitcoin></bitcoin>
           transactions while preserving privacy and blockspace.
         </p>
