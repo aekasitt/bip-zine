@@ -2,7 +2,7 @@
   <page-num>
     8
   </page-num>
-  <p style='font-size: 1.24rem; text-align: justify;'>
+  <p>
     At the time of writing, BIP-77 is still being finalized,
     and payjoin adoption is relatively low. However the 
     payjoin team has been hard at work on impressive new
@@ -10,7 +10,7 @@
     implement it and improve base layer tx!
   </p>
   <hr/>
-  <p style='font-size: 1.24rem; text-align: justify;'>
+  <p>
     Payjoin is an elegant solution for increasing scalability
     and preserving privacy. It saves block space (lower fees
     for all!) and weaken blockchain surveillance heuristics.
@@ -20,9 +20,9 @@
     use.
   </p>
   <hr/>
-  <p class='text-center' style='font-size: 1.24rem;'>
+  <p class='text-center'>
     Thanks for reading! Ready to learn more?
-    Want free copies of this and other zines? Visit
+    Want free copies of this and other zines? Visit:
   </p>
   <table class='contents-centered'>
     <tr style='border: none; margin: auto 0;'>
@@ -41,15 +41,12 @@
         >
         〜〜〜
       </td>
-      <td
-        class='lean seamless'
-        style='font-size: 1.24rem;'
-        >
+      <td class='lean seamless'>
         https://satsie.dev/zines
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) translate(-16%);'
         >
         〜〜〜
       </td>
@@ -67,10 +64,10 @@
 </zine-page>
 
 <zine-page class='right'>
-  <img alt="Satsie's Pocket Guide" src='./static/satsies-pocket-guide.svg' style='height: 120px;'>
-  <img alt='Graffiti' src='./static/graffiti.svg' style='height: 200px; margin-left: 25px;  margin-bottom: 0; margin-top: 0;'>
+  <img alt="Satsie's Pocket Guide" src='./static/satsies-pocket-guide.svg' style='height: 3cm;'>
+  <img alt='Graffiti' src='./static/graffiti.svg' style='height: 6.4cm; margin-left: 25px;  margin-bottom: 0; margin-top: 0;'>
   <h1 style='margin-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0;'>PAYJOIN</h1>
-  <h3 style='margin-bottom: 0; margin-top: 0;'>
+  <p class='text-center' style='margin-bottom: 0; margin-top: 0;'>
     A short zine about payjoin:
     <br />
     what is is, why it's cool and how it works
@@ -85,19 +82,19 @@
   <page-num>
     6
   </page-num>
-  <p class='text-center' style='font-size: 1.24rem; margin: .5cm auto; padding: 0 auto;'>
+  <p class='text-center' style='margin: .5cm auto; padding: 0 auto;'>
     There are three payjoin BIPs
   </p>
   <p
     class='text-center'
-    style='border: 2px black dotted; border-radius: .5cm; font-size: 1.24rem; margin: .25cm 1.5cm; padding: .25cm .5cm;'>
+    style='border: 2px black dotted; border-radius: .5cm; margin: .25cm 1.5cm; padding: .25cm .5cm;'>
     1. BIP-79: Bustapay (2018)
     <br />
     2. BIP-78: Payjoin (2019)
     <br />
     3. BIP-77: Payjoin V2 (2023)
   </p>
-  <p style='font-size: 1.24rem; letter-spacing: .1rem; text-align: justify;'>
+  <p>
     BIP-77 makes using payjoin easier than ever. Previously,
     you had to run a secure server -- a high barrier to entry!
     Now, web clients are used to access untrusted, 3rd party
@@ -120,12 +117,12 @@
   <page-num>
     3
   </page-num>
-  <p style='font-size: 1.24rem; letter-spacing: .1rem; text-align: left;'>
+  <p style='text-align: left;'>
     With payjoin, the receiver also contributes an input. Let's
     say Bob already has 5 BTC in his wallet and he wants to use
     that in a payjoin tx. It would look like this:
   </p>
-  <table style='margin: 0 auto; max-width: 60%;'>
+  <table style='margin: 0 auto;'>
     <thead>
       <tr>
         <th>INPUTS</th>
@@ -135,49 +132,50 @@
     </thead>
     <tbody style='border: 1px solid;'>
       <tr>
-        <td style='margin: 0 auto; padding-right: 0;'>
+        <td style='margin: 0 auto;'>
           <img
             alt="Alice's Five BTC"
             src='./static/alice-five.svg'
-            style='object-fit: contain; width: 2.4cm;'
+            style='height: 1.6cm; object-fit: contain;'
             >
         </td>
-        <td style='font-size: .48cm; letter-spacing: -.1cm; opacity: .6; transform: rotate(90deg);'>
-          ∾∾∾∾∾∾∾∾∾∾∾∾
+        <td style='font-size: .48cm; transform: rotate(90deg); white-space: nowrap;'>
+          〰〰〰〰
         </td>
-        <td style='margin: 0 auto; padding-left: 0;'>
+        <td style='margin: 0 auto;'>
           <img
             alt="Alice's Four BTC"
             src='./static/alice-four.svg'
-            style='object-fit: contain; width: 2.4cm;'
+            style='height: 1.6cm; object-fit: contain;'
             >
         </td>
       </tr>
       <tr>
-        <td style='margin: 0 auto; padding-right: 0;'>
+        <td style='margin: 0 auto;'>
           <img
             alt="Bob's Five BTC"
             src='./static/bob-five.svg'
-            style='object-fit: contain; width: 2.4cm;'
-            ></td>
-        <td style='font-size: .48cm; letter-spacing: -.1cm; opacity: .6; transform: rotate(90deg);'>
-          ∾∾∾∾∾∾∾∾∾∾∾∾
+            style='height: 1.6cm; object-fit: contain;'
+            >
         </td>
-        <td style='margin: 0 auto; padding-left: 0;'>
+        <td style='font-size: .48cm; transform: rotate(90deg); white-space: nowrap;'>
+          〰〰〰〰
+        </td>
+        <td style='margin: 0 auto;'>
           <img
             alt="Bob's One BTC"
             src='./static/bob-six.svg'
-            style='object-fit: contain; width: 2.4cm;'
+            style='height: 1.6cm; object-fit: contain;'
             >
         </td>
       </tr>
     </tbody>
   </table>
-  <outlined-right-arrow class='first' style='bottom: 8.12cm; position: absolute; right: 7.2cm;'>
+  <outlined-right-arrow class='first' style='bottom: 8.4cm; position: absolute; left: .8cm;'>
   </outlined-right-arrow>
-  <outlined-right-arrow class='second' style='bottom: 8.12cm; position: absolute; right: 1.2cm;'>
+  <outlined-right-arrow class='second' style='bottom: 8.4cm; position: absolute; right: .8cm;'>
   </outlined-right-arrow>
-  <p style='font-size: 1.24rem; letter-spacing: .1rem; text-align: left;'>
+  <p style='text-align: left;'>
     So why is this good? The first benefit is <strong>scalability.</strong>
     By definition, payjoin does some tx batching. In both scenarios, Bob
     ends up with a total of 6 BTC, but there's a slight difference in how
@@ -203,17 +201,17 @@
     <tr style='margin: auto 0;'>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.27cm; opacity: .4; transform: rotate(-90deg) scale(1.2) translate(-5%);'
+        style='font-size: .72cm; line-height: .3cm; letter-spacing: -.27cm; opacity: .4; transform: rotate(-90deg) scale(1.2) translate(-5%);'
         >
         〜〜〜〜〜
       </td>
-      <td class='lean seamless text-center' style='font-size: 1.2rem;'>
+      <td class='lean seamless text-center' style='font-size: .36cm;'>
         Payjoin is a technique for batching <bitcoin></bitcoin>
         transactions while preserving privacy and blockspace.
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.27cm; opacity: .4; transform: rotate(90deg) scale(1.2) translate(-8%);'
+        style='font-size: .72cm; line-height: .3cm; letter-spacing: -.27cm; opacity: .4; transform: rotate(-90deg) scale(1.2) translate(-8%);'
         >
         〜〜〜〜〜
       </td>
@@ -228,18 +226,18 @@
       </td>
     </tr>
   </table>
-  <p style='font-size: 1.12rem; letter-spacing: .1rem; text-align: left;'>
+  <p style='margin: .25cm 0; text-align: left;'>
     Recall that:
   </p>
-  <ol style='font-size: 1.12rem; letter-spacing: .1rem; margin-left: 1cm; text-align: left;'>
+  <ol style='margin: 0 1cm; text-align: left;'>
     <li><bitcoin></bitcoin> uses the UTXO model, and</li>
     <li>coins (transaction inputs and outputs) can be of any value</li>
   </ol>
-  <p style='font-size: 1.12rem; letter-spacing: .1rem; text-align: left;'>
+  <p style='margin: .25cm 0; text-align: left;'>
     Pretend Alice has 5 BTC in her wallet and she sends 1 BTC to Bob.
     The transaction (tx) looks like this:
   </p>
-  <table style='margin: 0 auto; max-width: 60%;'>
+  <table style='margin: 0 auto;'>
     <thead>
       <tr>
         <th>INPUTS</th>
@@ -249,42 +247,44 @@
     </thead>
     <tbody style='border: 1px solid;'>
       <tr>
-        <td style='margin: 0 auto; padding-right: 0;'>
+        <td style='margin: 0 auto;'>
           <img
             alt="Alice's Five BTC"
             src='./static/alice-five.svg'
-            style='object-fit: contain; width: 2.4cm;'
+            style='height: 1.6cm; object-fit: contain;'
             >
         </td>
-        <td style='font-size: .48cm; letter-spacing: -.1cm; opacity: .6; transform: rotate(90deg);'>
-          ∾∾∾∾∾∾∾∾∾∾∾∾
+        <td style='font-size: .48cm; transform: rotate(90deg); white-space: nowrap;'>
+          〰〰〰〰
         </td>
-        <td style='margin: 0 auto; padding-left: 0;'>
+        <td style='margin: 0 auto;'>
           <img
             alt="Alice's Four BTC"
             src='./static/alice-four.svg'
-            style='object-fit: contain; width: 2.4cm;'
+            style='height: 1.6cm; object-fit: contain;'
             >
         </td>
       </tr>
       <tr>
-        <td>&nbsp;</td>
-        <td style='font-size: .48cm; letter-spacing: -.1cm; opacity: .6; transform: rotate(90deg);'>
-          ∾∾∾∾∾∾∾∾∾∾∾∾
+        <td style='margin: 0 auto;'>
+          &nbsp;
         </td>
-        <td style='margin: 0 auto; padding-left: 0;'>
+        <td style='font-size: .48cm; transform: rotate(90deg) translate(1%); white-space: nowrap;'>
+          〰〰〰〰
+        </td>
+        <td style='margin: 0 auto;'>
           <img
             alt="Bob's One BTC"
             src='./static/bob-one.svg'
-            style='object-fit: contain; width: 2.4cm;'
+            style='height: 1.6cm; object-fit: contain;'
             >
         </td>
       </tr>
     </tbody>
   </table>
-  <outlined-right-arrow class='first' style='bottom: 2.4cm; position: absolute; right: 7.2cm;'>
+  <outlined-right-arrow class='first' style='bottom: 3cm; position: absolute; left: .8cm;'>
   </outlined-right-arrow>
-  <outlined-right-arrow class='second' style='bottom: 2.4cm; position: absolute; right: 1.2cm;'>
+  <outlined-right-arrow class='second' style='bottom: 3cm; position: absolute; right: .8cm;'>
   </outlined-right-arrow>
 </zine-page>
 
@@ -298,26 +298,26 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
+        style='font-size: .72cm; letter-spacing: -.3cm; opacity: .4; transform: translate(-1.2%);'>
         ～～～～～～～～～～～～～～
       </td>
     </tr>
     <tr>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
+        style='font-size: .72cm; letter-spacing: -.3cm; opacity: .4; transform: rotate(-90deg) translate(-12%);'
         >
         〜〜〜
       </td>
       <td
         class='lean seamless'
-        style='font-size: 1.12rem;'
+        style='font-size: .4cm;'
         >
         How BIP-77 works
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
+        style='font-size: .72cm; letter-spacing: -.3cm; opacity: .4; transform: rotate(-90deg) translate(-12%);'
         >
         〜〜〜
       </td>
@@ -326,31 +326,31 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
+        style='font-size: .72cm; letter-spacing: -.3cm; opacity: .4; transform: translate(-1.2%);'>
         ～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <p style='font-size: 1rem; margin: 0 0 .25cm 2.5cm; padding: 0 .25cm;'>
+  <p class='small' style='margin: 0 0 .25cm 2.5cm; padding: 0 .25cm;'>
     Bob: I want to start using payjoin. Can I have a mailbox?
   </p>
-  <p style='border: 2px black dotted; border-radius: .5cm; font-size: 1rem;  margin: 0 0 0 2.5cm; padding: 0 .25cm;'>
+  <p class='small' style='border: 2px black dotted; border-radius: .5cm; margin: 0 0 0 2.5cm; padding: 0 .25cm;'>
     Directory Server: Sure! Here's your address
   </p>
-  <p style='margin: .25cm 2.4cm .25cm 0;'>
+  <p class='small' style='margin: .25cm 2.4cm .25cm 0;'>
     Bob: Hey Alice, anytime you want to send me BTC, use my
     mailbox so we can make a payjoin
   </p>
-  <p style='border: 2px black solid; border-radius: .5cm; font-size: 1rem;  padding: 0 .25cm; margin: 0 2.5cm 0 .75cm;'>
+  <p class='small' style='border: 2px black solid; border-radius: .5cm; padding: 0 .25cm; margin: 0 2.5cm 0 .75cm;'>
     Alice: Ok. I want to send you BTC. I've started a transaction,
     and am putting it in your mailbox. Add your input and it will
     be a payjoin.
   </p>
-  <p style='font-size: 1rem; margin: 2.4cm 0 0 0;'>
+  <p class='small' style='margin: 2.4cm 0 0 0;'>
     Bob: Look! I have a payjoin transaction in my mailbox!
     Let me add my input and put it back in the mailbox
   </p>
-  <p style='border: 2px black solid; border-radius: .5cm; font-size: 1rem; padding: 0 .25cm; margin: .25cm 2.4cm 0 .75cm;'>
+  <p class='small' style='border: 2px black solid; border-radius: .5cm; padding: 0 .25cm; margin: .25cm 2.4cm 0 .75cm;'>
     Alice: My turn to check the mailbox. The payjoin transaction
     is in there and it's complete. Now I can broadcast it to the
     network!
@@ -363,7 +363,7 @@
   <img
     alt='Grumpy'
     src='./static/grumpy.svg'
-    style='position: absolute; left: .36cm; top: 2.6cm; transform: rotate(-15deg); width: 2cm;'
+    style='position: absolute; left: .36cm; top: 2.8cm; transform: rotate(-15deg); width: 2cm;'
     >
   <img
     alt='Goth'
@@ -422,7 +422,7 @@
     4
   </page-num>
   <br />
-  <p style='font-size: 1.24rem; letter-spacing: .1rem; text-align: justify;'>
+  <p>
     The way the 1 BTC from Alice was combined with Bob's
     existing 5 BTC is an example of
     <span style='font-weight: bold;'>
@@ -456,10 +456,10 @@
     5
   </page-num>
   <br />
-  <h3 style='text-align: center'>
+  <h3 class='text-center' style='margin: .32cm 1cm;'>
     ☆ Privacy ☆
   </h3>
-  <p style='font-size: 1.24rem; text-align: justify;'>
+  <p>
     Blockchain surveillance uses heuristics to make assumptions
     about the nature of a tx, including how much BTC was 
     transferred, how much the sender got back as change,
@@ -467,7 +467,7 @@
     for tracking users is the assumption that all inputs
     belong to the sender.
   </p>
-  <p style='font-size: 1.24rem; text-align: justify;'>
+  <p>
     Payjoin lets senders and receivers work together in
     a way that breaks one or more of these heuristics.
     After Alice and Bob used payjoin, the assumption that
@@ -479,7 +479,7 @@
       <td>
         <small-splash-left></small-splash-left>
       </td>
-      <td style='font-size: 1.24rem; font-weight: bold;'>
+      <td style='font-size: .4cm; letter-spacing: -.01cm; font-weight: 600;'>
         In this regard, payjoin instantly brings
         privacy to on-chain transactions, right
         at the moment of payment.

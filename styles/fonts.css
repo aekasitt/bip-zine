@@ -1,7 +1,20 @@
 /* ~~/styles/fonts.css */
 @font-face {
-  font-family: 'Coffee and Crafts';
-  src: url('../fonts/coffee-and-crafts.ttf');
+  font-family: 'Mali';
+  src: url('../fonts/mali-regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Mali';
+  src: url('../fonts/mali-light.ttf') format('truetype');
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'Mali';
+  src: url('../fonts/mali-semibold.ttf') format('truetype');
+  font-weight: 600;
 }
 
 @font-face {
@@ -23,8 +36,8 @@
   font-family: 'Ubuntu Bold Italic';
 }
 
-.font-coffee-and-crafts {
-  font-family: 'Coffee and Crafts';
+.font-mali {
+  font-family: 'Mali';
 }
 
 .font-niramit-light {

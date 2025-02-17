@@ -9,35 +9,45 @@ bitcoin:after {
 
 /* english headeers */
 h1, h2, h3 {
-  font-family: 'Coffee and Crafts';
-  font-weight: 200;
+  font-family: 'Mali';
+  font-weight: normal;
   font-style: italic;
   padding-bottom: 0.3cm;
   line-height: 1.1;
 }
 h1 {
-  font-size: 1.8cm;
+  font-size: 1.2cm;
+  line-height: 1.4cm;
   border-bottom: 0 none transparent;
 }
 h2 {
-  font-size: 1cm;
+  font-size: .8cm;
+  line-height: 1cm;
 }
 h3 {
   font-size: .6cm;
+  line-height: .8cm;
   margin-left: 1cm;
   margin-right: 1cm;
 }
 /* english paragraphs */
 * {
-  font-family: 'Coffee and Crafts';
-  font-weight: 200;
+  font-family: 'Mali';
+  font-weight: light;
 }
 p {
-  font-size: .45cm;
-  line-height: .5cm;
+  font-size: .4cm;
+  letter-spacing: -.01cm;
+  line-height: .6cm;
   padding-left: 1cm;
   padding-right: 1cm;
   text-align: justify;
+}
+
+p.small {
+  font-size: .3cm;
+  letter-spacing: -.008cm;
+  line-height: .5cm;
 }
 
 /* thai headers */
@@ -62,8 +72,8 @@ p {
   font-family: 'Niramit Light';
 }
 .th p {
-  font-size: .40cm;
-  line-height: .55cm;
+  font-size: .30cm;
+  line-height: .35cm;
   padding-left: 1.25cm;
   padding-right: 1.25cm;
 }
