@@ -80,6 +80,35 @@
   <page-num>
     6
   </page-num>
+  <p class='text-center' style='font-size: 1.24rem; margin: .5cm auto; padding: 0 auto;'>
+    There are three payjoin BIPs
+  </p>
+  <p
+    class='text-center'
+    style='border: 2px black dotted; border-radius: .5cm; font-size: 1.24rem; margin: .25cm 1.5cm; padding: .25cm .5cm;'>
+    1. BIP-79: Bustapay (2018)
+    <br />
+    2. BIP-78: Payjoin (2019)
+    <br />
+    3. BIP-77: Payjoin V2 (2023)
+  </p>
+  <p style='font-size: 1.24rem; letter-spacing: .1rem; text-align: justify;'>
+    BIP-77 makes using payjoin easier than ever. Previously,
+    you had to run a secure server -- a high barrier to entry!
+    Now, web clients are used to access untrusted, 3rd party
+    <span style='font-weight: bold;'>
+      directory servers.
+    </span>
+    Directory servers support many users so individuals
+    don't need to run their own. An Oblivious HTTP relay
+    proxy server sits in front to protect user IPs.
+    Participants can even work asynchronously (not being
+    online at the same time) because the directory server
+    buffers messages. BIP-77 also has authenticated
+    encryption, allowing users to take advantage of this
+    optimal architecture without compromising privacy or
+    security.
+  </p>
 </zine-page>
 
 <zine-page class='right'>
