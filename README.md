@@ -1,17 +1,28 @@
-# "All About BIPs" translation boilerplate
+# Satsie's zine translation boilerplate
 
-For bitcoiners far and wide, I created this to translate a short zine on BIPs
-created by the half-Thai half-awesome (same half) @satsie found [here.](https://satsie.dev/bips)
+For bitcoiners far & wide, I created this to translate a short zine on BIPs created by the half-Thai
+half-awesome (same half) [@satsie](https://github.com/satsie) found [here.](https://satsie.dev/bips)
 
 This repository is meant to be used with Visual Studio Code with the recommended extension
 
 * `yzane.markdown-pdf` listed in recommended extensions
   (repository: [vscode-markdown-pdf](https://github.com/yzane/vscode-markdown-pdf) by [@yzane](https://github.com/yzane))
 
+## Current roster
+
+- All about BIPs
+  * [🇬🇧](./bips.md) - [pdf](./bips.pdf)
+  * [🇹🇭](./bips.th.md) - [pdf](./bips.th.pdf)
+
+- Payjoin
+  * [🇬🇧](./payjoin.md) - [pdf](./payjoin.pdf)
+  * [🇹🇭](.) - [pdf](.)
+
 ## Usage
 
-1. Create a copy from the Markdown file `bip.md` containing original contents to your desired language.
-  (Recommend renaming to `bip.xx.md` with xx denoting language, following after Thai translated zine convention, `bip.th.md`)
+1. Create a copy from the Markdown file, for exampple we will use `bip.md` containing original
+  contents to your desired language. (Recommend renaming to `bip.xx.md` with xx denoting language,
+  following after Thai translated zine convention, `bip.th.md`)
 1. One paragraph at a time, translate the contents of the "All about BIPs" zine to desired language.
 1. Use the command palette to turn your new markdown `bip.xx.md` to PDF file ready for print.
 1. Hand out at local conferences and meetups. New bitdevs are found everywhere.
@@ -31,7 +42,7 @@ This repository is meant to be used with Visual Studio Code with the recommended
 
 ## Demonstration
 
-![demonstration](./demo.gif)
+![demonstration](./static/demo.gif)
 
 ### Acknowledgements
 
