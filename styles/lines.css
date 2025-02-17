@@ -4,6 +4,10 @@ hr {
   width: 40%;
 }
 
+.seamless {
+  border: none;
+}
+
 .squiggly {
   position: absolute;
   height: 10px;

@@ -26,24 +26,41 @@
   </p>
   <table class='contents-centered'>
     <tr style='border: none; margin: auto 0;'>
-      <td colspan='3' style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
-        ～～～～～～～～～～～～～～～～～
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～
       </td>
     </tr>
-    <tr style='border: none; margin: auto 0;'>
-      <td style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'>
-        〜〜〜〜
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
+        >
+        〜〜〜
       </td>
-      <td style='border: none; font-size: 1.24rem;'>
+      <td
+        class='lean seamless'
+        style='font-size: 1.24rem;'
+        >
         https://satsie.dev/zines
       </td>
-      <td style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'>
-        〜〜〜～
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
+        >
+        〜〜〜
       </td>
     </tr>
-    <tr style='border: none; margin: auto 0;'>
-      <td colspan='3' style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
-        ～～～～～～～～～～～～～～～～～
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
@@ -173,35 +190,52 @@
   <page-num>
     2
   </page-num>
-  <br />
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <table>
-    <tr>
-      <td>
-        <div class='medium squiggly-vert squiggly-vert-1'></div>
-        <div class='medium squiggly-vert squiggly-vert-2'></div>
+  <table class='contents-centered'>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.27cm; opacity: .4; transform: scale(1.1) translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～
       </td>
-      <td>
-        <p class='text-center' style='font-size: 1.24rem; letter-spacing: .1rem;'>
-          Payjoin is a technique for batching <bitcoin></bitcoin>
-          transactions while preserving privacy and blockspace.
-        </p>
+    </tr>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.27cm; opacity: .4; transform: rotate(-90deg) scale(1.2) translate(-5%);'
+        >
+        〜〜〜〜〜
       </td>
-      <td>
-        <div class='medium squiggly-vert squiggly-vert-1'></div>
-        <div class='medium squiggly-vert squiggly-vert-2'></div>
+      <td class='lean seamless text-center' style='font-size: 1.2rem;'>
+        Payjoin is a technique for batching <bitcoin></bitcoin>
+        transactions while preserving privacy and blockspace.
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.27cm; opacity: .4; transform: rotate(90deg) scale(1.2) translate(-8%);'
+        >
+        〜〜〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.27cm; opacity: .4; transform: scale(1.1) translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
   <p style='font-size: 1.12rem; letter-spacing: .1rem; text-align: left;'>
     Recall that:
-    <ol style='font-size: 1.12rem; letter-spacing: .1rem; text-align: left;'>
-      <li><bitcoin></bitcoin> uses the UTXO model, and</li>
-      <li>coins (transaction inputs and outputs) can be of any value</li>
-    </ol>
+  </p>
+  <ol style='font-size: 1.12rem; letter-spacing: .1rem; margin-left: 1cm; text-align: left;'>
+    <li><bitcoin></bitcoin> uses the UTXO model, and</li>
+    <li>coins (transaction inputs and outputs) can be of any value</li>
+  </ol>
+  <p style='font-size: 1.12rem; letter-spacing: .1rem; text-align: left;'>
     Pretend Alice has 5 BTC in her wallet and she sends 1 BTC to Bob.
     The transaction (tx) looks like this:
   </p>
@@ -248,9 +282,9 @@
       </tr>
     </tbody>
   </table>
-  <outlined-right-arrow class='first' style='bottom: 2cm; position: absolute; right: 7.2cm;'>
+  <outlined-right-arrow class='first' style='bottom: 2.4cm; position: absolute; right: 7.2cm;'>
   </outlined-right-arrow>
-  <outlined-right-arrow class='second' style='bottom: 2cm; position: absolute; right: 1.2cm;'>
+  <outlined-right-arrow class='second' style='bottom: 2.4cm; position: absolute; right: 1.2cm;'>
   </outlined-right-arrow>
 </zine-page>
 
@@ -259,25 +293,40 @@
     7
   </page-num>
   <br />
-  <table class='contents-centered' style='margin-left: 0; width: 80%;'>
-    <tr style='border: none; margin: auto 0;'>
-      <td colspan='3' style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
+  <table class='contents-centered' style='margin-left: 0; width: 75%;'>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
         ～～～～～～～～～～～～～～
       </td>
     </tr>
-    <tr style='border: none; margin: auto 0;'>
-      <td style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'>
-        〜〜〜〜
+    <tr>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
+        >
+        〜〜〜
       </td>
-      <td style='border: none; font-size: 1.12rem;'>
+      <td
+        class='lean seamless'
+        style='font-size: 1.12rem;'
+        >
         How BIP-77 works
       </td>
-      <td style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'>
-        〜〜〜～
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
+        >
+        〜〜〜
       </td>
     </tr>
-    <tr style='border: none; margin: auto 0;'>
-      <td colspan='3' style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
         ～～～～～～～～～～～～～～
       </td>
     </tr>
@@ -309,52 +358,52 @@
   <img
     alt='Mailbox 01'
     src='./static/mailbox-01.svg'
-    style='position: absolute; right: .36cm; top: 1.2cm; width: 2.4cm;'
+    style='position: absolute; right: .6cm; top: .6cm; width: 2cm;'
     >
   <img
     alt='Grumpy'
     src='./static/grumpy.svg'
-    style='position: absolute; left: .36cm; top: 3.6cm; transform: rotate(-15deg); width: 2cm;'
+    style='position: absolute; left: .36cm; top: 2.6cm; transform: rotate(-15deg); width: 2cm;'
     >
   <img
     alt='Goth'
     src='./static/goth.svg'
-    style='position: absolute; right: .36cm; top: 6cm; width: 2.4cm;'
+    style='position: absolute; right: .36cm; top: 5cm; width: 2.4cm;'
     >
   <img
     alt='Bubble tail'
     src='./static/bubble-tail.svg'
-    style='position: absolute; right: 1.9cm; top: 8cm; width: 1.2cm;'
+    style='position: absolute; right: 1.9cm; top: 7cm; width: 1.2cm;'
     >
   <img
     alt='Grumpy again'
     src='./static/grumpy.svg'
-    style='position: absolute; left: .36cm; top: 9.6cm; width: 2cm;'
+    style='position: absolute; left: .36cm; top: 8.8cm; width: 2cm;'
     >
   <img
     alt='Pencil and paper'
     src='./static/pencil-and-paper.svg'
-    style='position: absolute; left: 2cm; top: 10.4cm; transform: rotate(30deg); width: 1.2cm;'
+    style='position: absolute; left: 2cm; top: 9.6cm; transform: rotate(30deg); width: 1.2cm;'
     >
   <img
     alt='Mailbox 02'
     src='./static/mailbox-02.svg'
-    style='position: absolute; left: 4.4cm; top: 9.6cm; width: 2cm;'
+    style='position: absolute; left: 4.4cm; top: 8.8cm; width: 2cm;'
     >
   <img
     alt='Paper'
     src='./static/paper.svg'
-    style='position: absolute; right: .6cm; top: 10cm; width: 1.6cm;'
+    style='position: absolute; right: .6cm; top: 9.2cm; width: 1.6cm;'
     >
   <img
     alt='Arrow right'
     src='./static/arrow.svg'
-    style='position: absolute; left: 3.2cm; top: 10.8cm; transform: scaleX(-1) rotate(-90deg); width: 1cm;'
+    style='position: absolute; left: 3.2cm; top: 9.8cm; transform: scaleX(-1) rotate(-90deg); width: 1cm;'
     >
   <img
     alt='Arrow left'
     src='./static/arrow.svg'
-    style='position: absolute; right: 2.4cm; top: 10cm; transform: rotate(-90deg); width: 1cm;'
+    style='position: absolute; right: 2.4cm; top: 9cm; transform: rotate(-90deg); width: 1cm;'
     >
   <img
     alt='Goth again'
@@ -364,7 +413,7 @@
   <img
     alt='Bubble tail again'
     src='./static/bubble-tail.svg'
-    style='position: absolute; right: 1.8cm; bottom: .4cm; width: 1.2cm;'
+    style='position: absolute; right: 1.8cm; bottom: 2.2cm; width: 1.2cm; transform: scaleY(-1)'
     >
 </zine-page>
 
