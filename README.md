@@ -54,3 +54,7 @@ This repository is meant to be used with Visual Studio Code with the recommended
   `...distributed under an open licence and you are expressly encouraged to experiment, modify, share and improve.`
 1. [HereComesBitcoin](https://www.herecomesbitcoin.org/) for vector assets
 1. [SVGRepo](https://www.svgrepo.com/) and [Freepik](https://freepik.com) for various vector assets
+
+## License
+
+This project is licensed under the terms of the MIT license.
