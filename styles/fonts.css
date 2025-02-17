@@ -1,21 +1,40 @@
 /* ~~/styles/fonts.css */
-
 @font-face {
   font-family: 'Coffee and Crafts';
-  src: url('./coffee-and-crafts.ttf');
+  src: url('../fonts/coffee-and-crafts.ttf');
 }
 
 @font-face {
   font-family: 'Niramit Light';
-  src: url('./niramit-light.ttf');
+  src: url('../fonts/niramit-light.ttf');
 }
 
 @font-face {
   font-family: 'Niramit Light Italic';
-  src: url('./niramit-light-italic.ttf');
+  src: url('../fonts/niramit-light-italic.ttf');
 }
 
 @font-face {
   font-family: 'Ubuntu Bold Italic';
-  src: url('./ubuntu-bold-italic.ttf');
+  src: url('../fonts/ubuntu-bold-italic.ttf');
+}
+
+.font-bitcoin {
+  font-family: 'Ubuntu Bold Italic';
+}
+
+.font-coffee-and-crafts {
+  font-family: 'Coffee and Crafts';
+}
+
+.font-niramit-light {
+  font-family: 'Niramit Light';
+}
+
+.font-niramit-light-italic {
+  font-family: 'Niramit Light Italic';
+}
+
+.font-ubuntu-bold-italic {
+  font-family: 'Ubuntu Bold Italic';
 }
