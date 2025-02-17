@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" id="curve-arrow-left" data-name="Flat Line"
+  xmlns="http://www.w3.org/2000/svg" class="icon flat-line">
+  
+  <path id="primary"
+    d="
+      M21,4
+      c0,5.87-2.9,11.72-10,12
+      v-6
+      C17.12,9.69,21,4,21,4
+      Z
+    "
+    fill="none"
+    stroke="black"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+  />
+  <path
+    d="
+      M21,4
+      c0,5.87-2.9,11.72-11.1,12
+      v-6
+      C17.12,9.69,21,4,21,4
+      Z
+    "
+    fill="white"
+  />
+</svg>

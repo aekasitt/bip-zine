@@ -242,7 +242,113 @@
     7
   </page-num>
   <br />
-  
+  <table class='contents-centered' style='margin-left: 0; width: 80%;'>
+    <tr style='border: none; margin: auto 0;'>
+      <td colspan='3' style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
+        ～～～～～～～～～～～～～～
+      </td>
+    </tr>
+    <tr style='border: none; margin: auto 0;'>
+      <td style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'>
+        〜〜〜〜
+      </td>
+      <td style='border: none; font-size: 1.12rem;'>
+        How BIP-77 works
+      </td>
+      <td style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'>
+        〜〜〜～
+      </td>
+    </tr>
+    <tr style='border: none; margin: auto 0;'>
+      <td colspan='3' style='border: none; font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'>
+        ～～～～～～～～～～～～～～
+      </td>
+    </tr>
+  </table>
+  <p style='font-size: 1rem; margin: 0 0 .25cm 2.5cm; padding: 0 .25cm;'>
+    Bob: I want to start using payjoin. Can I have a mailbox?
+  </p>
+  <p style='border: 2px black dotted; border-radius: .5cm; font-size: 1rem;  margin: 0 0 0 2.5cm; padding: 0 .25cm;'>
+    Directory Server: Sure! Here's your address
+  </p>
+  <p style='margin: .25cm 2.4cm .25cm 0;'>
+    Bob: Hey Alice, anytime you want to send me BTC, use my
+    mailbox so we can make a payjoin
+  </p>
+  <p style='border: 2px black solid; border-radius: .5cm; font-size: 1rem;  padding: 0 .25cm; margin: 0 2.5cm 0 .75cm;'>
+    Alice: Ok. I want to send you BTC. I've started a transaction,
+    and am putting it in your mailbox. Add your input and it will
+    be a payjoin.
+  </p>
+  <p style='font-size: 1rem; margin: 2.4cm 0 0 0;'>
+    Bob: Look! I have a payjoin transaction in my mailbox!
+    Let me add my input and put it back in the mailbox
+  </p>
+  <p style='border: 2px black solid; border-radius: .5cm; font-size: 1rem; padding: 0 .25cm; margin: .25cm 2.4cm 0 .75cm;'>
+    Alice: My turn to check the mailbox. The payjoin transaction
+    is in there and it's complete. Now I can broadcast it to the
+    network!
+  </p>
+  <img
+    alt='Mailbox 01'
+    src='./static/mailbox-01.svg'
+    style='position: absolute; right: .36cm; top: 1.2cm; width: 2.4cm;'
+    >
+  <img
+    alt='Grumpy'
+    src='./static/grumpy.svg'
+    style='position: absolute; left: .36cm; top: 3.6cm; transform: rotate(-15deg); width: 2cm;'
+    >
+  <img
+    alt='Goth'
+    src='./static/goth.svg'
+    style='position: absolute; right: .36cm; top: 6cm; width: 2.4cm;'
+    >
+  <img
+    alt='Bubble tail'
+    src='./static/bubble-tail.svg'
+    style='position: absolute; right: 1.9cm; top: 8cm; width: 1.2cm;'
+    >
+  <img
+    alt='Grumpy again'
+    src='./static/grumpy.svg'
+    style='position: absolute; left: .36cm; top: 9.6cm; width: 2cm;'
+    >
+  <img
+    alt='Pencil and paper'
+    src='./static/pencil-and-paper.svg'
+    style='position: absolute; left: 2cm; top: 10.4cm; transform: rotate(30deg); width: 1.2cm;'
+    >
+  <img
+    alt='Mailbox 02'
+    src='./static/mailbox-02.svg'
+    style='position: absolute; left: 4.4cm; top: 9.6cm; width: 2cm;'
+    >
+  <img
+    alt='Paper'
+    src='./static/paper.svg'
+    style='position: absolute; right: .6cm; top: 10cm; width: 1.6cm;'
+    >
+  <img
+    alt='Arrow right'
+    src='./static/arrow.svg'
+    style='position: absolute; left: 3.2cm; top: 10.8cm; transform: scaleX(-1) rotate(-90deg); width: 1cm;'
+    >
+  <img
+    alt='Arrow left'
+    src='./static/arrow.svg'
+    style='position: absolute; right: 2.4cm; top: 10cm; transform: rotate(-90deg); width: 1cm;'
+    >
+  <img
+    alt='Goth again'
+    src='./static/goth.svg'
+    style='position: absolute; right: .2cm; bottom: .8cm; width: 2cm;'
+    >
+  <img
+    alt='Bubble tail again'
+    src='./static/bubble-tail.svg'
+    style='position: absolute; right: 1.8cm; bottom: .4cm; width: 1.2cm;'
+    >
 </zine-page>
 
 <zine-page class='left'>
@@ -302,7 +408,7 @@
     all inputs came from Alice is no longer true. The tx
     looks the same as if Alice provided multiple inputs.
   </p>
-  <table class="contents-centered">
+  <table class='contents-centered'>
     <tr>
       <td>
         <small-splash-left></small-splash-left>
