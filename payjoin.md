@@ -20,12 +20,12 @@
     use.
   </p>
   <hr/>
-  <p class='text-center'>
+  <p class='text-center text-small'>
     Thanks for reading! Ready to learn more?
     Want free copies of this and other zines? Visit:
   </p>
   <table class='contents-centered'>
-    <tr style='border: none; margin: auto 0;'>
+    <tr style='margin: auto 0;'>
       <td
         class='lean seamless'
         colspan='3'
@@ -331,26 +331,26 @@
       </td>
     </tr>
   </table>
-  <p class='small' style='margin: 0 0 .25cm 2.5cm; padding: 0 .25cm;'>
+  <p class='text-small' style='margin: 0 0 .25cm 2.5cm; padding: 0 .25cm;'>
     Bob: I want to start using payjoin. Can I have a mailbox?
   </p>
-  <p class='small' style='border: 2px black dotted; border-radius: .5cm; margin: 0 0 0 2.5cm; padding: 0 .25cm;'>
+  <p class='text-small' style='border: 2px black dotted; border-radius: .5cm; margin: 0 0 0 2.5cm; padding: 0 .25cm;'>
     Directory Server: Sure! Here's your address
   </p>
-  <p class='small' style='margin: .25cm 2.4cm .25cm 0;'>
+  <p class='text-small' style='margin: .25cm 2.4cm .25cm 0;'>
     Bob: Hey Alice, anytime you want to send me BTC, use my
     mailbox so we can make a payjoin
   </p>
-  <p class='small' style='border: 2px black solid; border-radius: .5cm; padding: 0 .25cm; margin: 0 2.5cm 0 .75cm;'>
+  <p class='text-small' style='border: 2px black solid; border-radius: .5cm; padding: 0 .25cm; margin: 0 2.5cm 0 .75cm;'>
     Alice: Ok. I want to send you BTC. I've started a transaction,
     and am putting it in your mailbox. Add your input and it will
     be a payjoin.
   </p>
-  <p class='small' style='margin: 2.4cm 0 0 0;'>
+  <p class='text-small' style='margin: 2.4cm 0 0 0;'>
     Bob: Look! I have a payjoin transaction in my mailbox!
     Let me add my input and put it back in the mailbox
   </p>
-  <p class='small' style='border: 2px black solid; border-radius: .5cm; padding: 0 .25cm; margin: .25cm 2.4cm 0 .75cm;'>
+  <p class='text-small' style='border: 2px black solid; border-radius: .5cm; padding: 0 .25cm; margin: .25cm 2.4cm 0 .75cm;'>
     Alice: My turn to check the mailbox. The payjoin transaction
     is in there and it's complete. Now I can broadcast it to the
     network!

@@ -1,8 +1,8 @@
-<zine-page class="left">
+<zine-page class='left'>
   <page-num>
     8
   </page-num>
-  <table class="contents-centered">
+  <table class='contents-centered'>
     <tr>
       <td>
         <small-splash-left />
@@ -20,29 +20,29 @@
   <h3>
     Want to learn more?
   </h3>
-  <p class="text-left">
-    <arrow-right class="first" />
+  <p class='text-left'>
+    <arrow-right class='first' />
     check out the complete list of BIPs:
     github.com/bitcoin/bips
   </p>
-  <p class="text-left">
-    <arrow-right class="second" />
+  <p class='text-left'>
+    <arrow-right class='second' />
     start following the <bitcoin></bitcoin>
     dev mailing list. You'll be among the
     first to hear about new BIPs and updates
     to ones in progress
   </p>
   <br />
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
   <table>
     <tr>
       <td>
-        <div class="x-small squiggly-vert squiggly-vert-1"></div>
-        <div class="x-small squiggly-vert squiggly-vert-2"></div>
+        <div class='x-small squiggly-vert squiggly-vert-1'></div>
+        <div class='x-small squiggly-vert squiggly-vert-2'></div>
       </td>
       <td>
-        <p class="text-center">
+        <p class='text-center'>
           Still want more? Head over to 
           https://satsie.dev/bips
           <br />
@@ -50,52 +50,52 @@
         </p>
       </td>
       <td>
-        <div class="x-small squiggly-vert squiggly-vert-1"></div>
-        <div class="x-small squiggly-vert squiggly-vert-2"></div>
+        <div class='x-small squiggly-vert squiggly-vert-1'></div>
+        <div class='x-small squiggly-vert squiggly-vert-2'></div>
       </td>
     </tr>
   </table>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
 </zine-page>
 
-<zine-page class="right">
-  <table>
-  <tr>
-  <td>
-    <splash-left />
-    </td>
-    <td>
-  <h1>
-    All about
-    <br />
-    BIPs!
-  </h1>
-  </td>
-    <td>
-    <splash-left class="background-mirrored"/>
-    </td>
-  </tr>
+<zine-page class='right'>
+  <table style='margin: 1cm auto;'>
+    <tr>
+      <td class='lean'>
+        <splash-left />
+      </td>
+      <td>
+        <h1 class='contents-centerd'>
+          All about
+          <br />
+          BIPs!
+        </h1>
+      </td>
+      <td class='lean'>
+        <splash-left class='background-mirrored'/>
+      </td>
+    </tr>
   </table>
   <br />
   <br />
   A short zine on BIPs:
   <hr />
-  <p class="text-center">
+  <p class='text-center'>
     What they are, how they are made,
     <br />
     and how they can (sometimes!) come to life
   </p>
 </zine-page>
 
-<zine-page class="left">
+<zine-page class='left'>
   <page-num>
     6
   </page-num>
-  <p class="text-center">
+  <p class='text-center'>
     But that's just the beginning...
     <br />
-    <h3>
+    <h3 class='lean'>
       How do BIPs get accepted and deployed
       into <bitcoin></bitcoin>?
     </h3>
@@ -105,30 +105,47 @@
     author + its supporters to champion the idea. They need
     to spark interest and rally support.
   </p>
-  <br />
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
-  <table>
-    <tr>
-      <td>
-        <div class="medium squiggly-vert squiggly-vert-1"></div>
-        <div class="medium squiggly-vert squiggly-vert-2"></div>
+  <table class='contents-centered'>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～
       </td>
-      <td>
-        <p>
-          "The BIP author is responsible for building consensus
-          in the community and documenting dissenting opinions"
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) scale(1.4) translate(-6%);'
+        >
+        〜〜〜〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean'>
+          'The BIP author is responsible for building consensus
+          in the community and documenting dissenting opinions'
           -- from BIP-2
         </p>
       </td>
-      <td>
-        <div class="medium squiggly-vert squiggly-vert-1"></div>
-        <div class="medium squiggly-vert squiggly-vert-2"></div>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.4) translate(-6%);'
+        >
+        〜〜〜〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
   <p>
     The beautiful thing about <bitcoin></bitcoin> is it's
     decentralized. Anyone can make a BIP! But that also means
@@ -138,7 +155,7 @@
   </p>
 </zine-page>
 
-<zine-page class="right">
+<zine-page class='right'>
   <page-num>
     3
   </page-num>
@@ -151,31 +168,49 @@
     It's the one thing that's the same across all
     implementations of a BIP.
   </p>
-  <h3>
+  <h3 class='lean'>
     How do you make a BIP?
   </h3>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
-  <table>
-    <tr>
-      <td>
-        <div class="small squiggly-vert squiggly-vert-1"></div>
-        <div class="small squiggly-vert squiggly-vert-2"></div>
+  <table class='contents-centered'>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～
       </td>
-      <td>
-        <p>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.2) translate(-10%);'
+        >
+        〜〜〜〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean'>
           Before you begin: do some homework to see if your idea,
           or something like it has been proposed before.
         </p>
       </td>
-      <td>
-        <div class="small squiggly-vert squiggly-vert-1"></div>
-        <div class="small squiggly-vert squiggly-vert-2"></div>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) scale(1.2) translate(-6%);'
+        >
+        〜〜〜〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
   <p>
     Step 1: Share your idea with the <bitcoin></bitcoin>-dev mailing list.
     This gives the community a chance that the idea hasn't been
@@ -184,63 +219,63 @@
   </p>
 </zine-page>
 
-<zine-page class="left">
+<zine-page class='left'>
   <page-num>
     2
   </page-num>
-  <table class="contents-centered">
+  <table class='contents-centered' style='margin-top: .5cm;'>
     <tr>
       <td>
-        <small-splash-left />
+        <small-splash-left></small-splash-left>
       </td>
       <td>
-        <h3 class="text-center">
+        <h3 class='text-center'>
           BIP stands for:
           <br />
           <bitcoin></bitcoin> Improvement Proposal
         </h3>
       </td>
       <td>
-        <small-splash-right />
+        <small-splash-right></small-splash-right>
       </td>
     </tr>
   </table>
-  <p>
+  <p style='margin-top: 0; padding-top: 0;'>
     BIPs are a way for people to share technical documentation
     + ideas for improving <bitcoin></bitcoin>.
   </p>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
   <table>
     <tr>
       <td>
-        <div class="x-small squiggly-vert squiggly-vert-1"></div>
-        <div class="x-small squiggly-vert squiggly-vert-2"></div>
+        <div class='x-small squiggly-vert squiggly-vert-1'></div>
+        <div class='x-small squiggly-vert squiggly-vert-2'></div>
       </td>
       <td>
-        <p class="text-center">
+        <p class='text-center'>
           All BIPs can be found at:
           Github.com/bitcoin/bips
         </p>
       </td>
       <td>
-        <div class="x-small squiggly-vert squiggly-vert-1"></div>
-        <div class="x-small squiggly-vert squiggly-vert-2"></div>
+        <div class='x-small squiggly-vert squiggly-vert-1'></div>
+        <div class='x-small squiggly-vert squiggly-vert-2'></div>
       </td>
     </tr>
   </table>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
-  <p>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
+  <p class='text-small'>
     Each BIP has a number (e.g. BIP-324), which makes it easy
     for people to find and reference ideas. It can be hard to
     look for documentation on something that was never filed
     as a BIP!
   </p>
-  <p class="text-center">
+  <p class='text-center'>
     Can anything become a BIP?
   </p>
-  <p>
+  <p class='text-small'>
     No. BIPs are usually best suited for the kinds of ideas
     that many different software projects will want to use.
     If the idea only pertains to one code base or project,
@@ -248,12 +283,12 @@
   </p>
 </zine-page>
 
-<zine-page class="right">
+<zine-page class='right'>
   <page-num>
     7
   </page-num>
   <br />
-  <p class="text-center">
+  <p class='text-center'>
     Sometimes you have to be patient. Some new
     popular BIPs sat around for months before
     anyone noticed them.
@@ -268,20 +303,20 @@
     because not enough people are excited enough
     to put their own energy towards it.
   </p>
-  <p class="text-center">
+  <p class='text-center' style='margin: .2cm 0;'>
     Other factors include competing proposals, or
     general fatigue around certain topics.
   </p>
-  <p class="text-center">
+  <p class='text-center' style='margin: .2cm 0;'>
     Some BIPs end up getting withdrawn or rejected.
   </p>
-  <p class="text-center">
+  <p class='text-center' style='margin: .2cm 0;'>
     Always remember, just because something is a BIP,
     it doesn't mean it's been, or will be adopted :)
   </p>
 </zine-page>
 
-<zine-page class="left">
+<zine-page class='left'>
   <page-num>
     4
   </page-num>
@@ -294,8 +329,8 @@
     your BIP!
   </p>
   <br />
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
   <br />
   <p>
     Tip: It's important your BIP is possible to implement.
@@ -303,20 +338,20 @@
     introducing the draft BIP to the mailing list.
     This has a few benefits, it
   </p>
-  <p class="text-left">
+  <p class='text-left'>
     1. Proves the idea can be implemented
   </p>
-  <p class="text-left">
-    2. Results in a, "reference implementation," an example
+  <p class='text-left'>
+    2. Results in a, 'reference implementation,' an example
     of how the BIP could be executed
   </p>
-  <p class="text-left">
+  <p class='text-left'>
     3. Provides a nice set of developer notes that can be
     used to write the BIP
   </p>
 </zine-page>
 
-<zine-page class="right">
+<zine-page class='right'>
   <page-num>
     5
   </page-num>
@@ -334,29 +369,29 @@
     Informational or Process. Then they accept the
     BIP by merging PR into the repo.
   </p>
-  <table class="contents-centered">
+  <table class='contents-centered'>
     <tr>
       <td>
-        <small-splash-left />
+        <small-splash-left></small-splash-left>
       </td>
       <td>
         Yay!!!
       </td>
       <td>
-        <small-splash-right />
+        <small-splash-right></small-splash-right>
       </td>
     </tr>
   </table>
   <br />
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
   <table>
     <tr>
       <td>
-        <div class="large squiggly-vert squiggly-vert-1"></div>
-        <div class="large squiggly-vert squiggly-vert-2"></div>
+        <div class='large squiggly-vert squiggly-vert-1'></div>
+        <div class='large squiggly-vert squiggly-vert-2'></div>
       </td>
-      <td class="text-left">
+      <td class='text-left text-small'>
         Reasons why a BIP may be rejected:
         <br />
         * proposal is similar to an existing one
@@ -373,11 +408,11 @@
         <br />
       </td>
       <td>
-        <div class="large squiggly-vert squiggly-vert-1"></div>
-        <div class="large squiggly-vert squiggly-vert-2"></div>
+        <div class='large squiggly-vert squiggly-vert-1'></div>
+        <div class='large squiggly-vert squiggly-vert-2'></div>
       </td>
     </tr>
   </table>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
 </zine-page>

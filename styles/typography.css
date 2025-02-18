@@ -17,16 +17,19 @@ h1, h2, h3 {
 }
 h1 {
   font-size: 1.2cm;
-  line-height: 1.4cm;
+  font-weight: 600;
+  line-height: 1.2cm;
   border-bottom: 0 none transparent;
 }
 h2 {
-  font-size: .8cm;
+  font-size: .6cm;
+  line-height: .8cm;
+  font-weight: 600;
   line-height: 1cm;
 }
 h3 {
-  font-size: .6cm;
-  line-height: .8cm;
+  font-size: .5cm;
+  line-height: .7cm;
   margin-left: 1cm;
   margin-right: 1cm;
 }
@@ -44,7 +47,7 @@ p {
   text-align: justify;
 }
 
-p.small {
+.text-small {
   font-size: .3cm;
   letter-spacing: -.008cm;
   line-height: .5cm;
