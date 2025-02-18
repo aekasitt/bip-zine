@@ -91,6 +91,10 @@ p {
   text-align: left;
 }
 
+.text-squeezed {
+  letter-spacing: -.016cm;
+}
+
 /* special cases */
 
 .translator-note {

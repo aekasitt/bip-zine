@@ -33,30 +33,49 @@
     to ones in progress
   </p>
   <br />
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <table>
-    <tr>
-      <td>
-        <div class='x-small squiggly-vert squiggly-vert-1'></div>
-        <div class='x-small squiggly-vert squiggly-vert-2'></div>
+  <table class='contents-centered'>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～
       </td>
-      <td>
-        <p class='text-center'>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.1) translate(-12%);'
+        >
+        〜〜〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean text-center'>
           Still want more? Head over to 
           https://satsie.dev/bips
           <br />
           for additional resources
+          <br />
         </p>
       </td>
-      <td>
-        <div class='x-small squiggly-vert squiggly-vert-1'></div>
-        <div class='x-small squiggly-vert squiggly-vert-2'></div>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.1) translate(-12%);'
+        >
+        〜〜〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
 </zine-page>
 
 <zine-page class='right'>
@@ -240,32 +259,51 @@
       </td>
     </tr>
   </table>
-  <p style='margin-top: 0; padding-top: 0;'>
+  <p class='text-squeezed' style='margin-top: 0; padding-top: 0;'>
     BIPs are a way for people to share technical documentation
     + ideas for improving <bitcoin></bitcoin>.
   </p>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <table>
-    <tr>
-      <td>
-        <div class='x-small squiggly-vert squiggly-vert-1'></div>
-        <div class='x-small squiggly-vert squiggly-vert-2'></div>
+  <table class='contents-centered'>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～～
       </td>
-      <td>
-        <p class='text-center'>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.1) translate(-12%);'
+        >
+        〜〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean text-center'>
           All BIPs can be found at:
           Github.com/bitcoin/bips
+          <br />
         </p>
       </td>
-      <td>
-        <div class='x-small squiggly-vert squiggly-vert-1'></div>
-        <div class='x-small squiggly-vert squiggly-vert-2'></div>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.1) translate(-12%);'
+        >
+        〜〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
   <p class='text-small'>
     Each BIP has a number (e.g. BIP-324), which makes it easy
     for people to find and reference ideas. It can be hard to
@@ -303,14 +341,14 @@
     because not enough people are excited enough
     to put their own energy towards it.
   </p>
-  <p class='text-center' style='margin: .2cm 0;'>
+  <p class='text-center text-squeezed' style='margin: .25cm 0;'>
     Other factors include competing proposals, or
     general fatigue around certain topics.
   </p>
-  <p class='text-center' style='margin: .2cm 0;'>
+  <p class='text-center text-squeezed' style='margin: .25cm 0;'>
     Some BIPs end up getting withdrawn or rejected.
   </p>
-  <p class='text-center' style='margin: .2cm 0;'>
+  <p class='text-center text-squeezed' style='margin: .25cm 0;'>
     Always remember, just because something is a BIP,
     it doesn't mean it's been, or will be adopted :)
   </p>
@@ -329,8 +367,9 @@
     your BIP!
   </p>
   <br />
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
+  <div class='lean' style='font-size: .64cm; font-weight: 700; white-space: nowrap;'>
+    〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
+  </div>
   <br />
   <p>
     Tip: It's important your BIP is possible to implement.
@@ -383,36 +422,56 @@
     </tr>
   </table>
   <br />
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <table>
-    <tr>
-      <td>
-        <div class='large squiggly-vert squiggly-vert-1'></div>
-        <div class='large squiggly-vert squiggly-vert-2'></div>
+  <table class='contents-centered'>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; line-height: .02cm; opacity: .32; transform: scale(1.2) translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～〜〜〜〜
       </td>
-      <td class='text-left text-small'>
-        Reasons why a BIP may be rejected:
-        <br />
-        * proposal is similar to an existing one
-        <br />
-        * incorrect formatting
-        <br />
-        * too broad, lack of focus
-        <br />
-        * not technically sound
-        <br />
-        * failure to address motivations or backwards compatibility
-        <br />
-        * not in alignment with <bitcoin></bitcoin> philosophy
-        <br />
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; line-height: .02cm;  opacity: .32; transform: rotate(-90deg) scale(1.8) translate(-10%);'
+        >
+        〜〜〜〜〜
       </td>
-      <td>
-        <div class='large squiggly-vert squiggly-vert-1'></div>
-        <div class='large squiggly-vert squiggly-vert-2'></div>
+      <td class='lean seamless'>
+        <p class='lean text-small text-squeezed'>
+          Reasons why a BIP may be rejected:
+       </p>
+       <p class='lean text-left text-small text-squeezed' style='margin-left: .25cm;'>
+          * proposal is similar to an existing one
+          <br />
+          * incorrect formatting
+          <br />
+          * too broad, lack of focus
+          <br />
+          * not technically sound
+          <br />
+          * failure to address motivations or backwards compatibility
+          <br />
+          * not in alignment with <bitcoin></bitcoin> philosophy
+        </p>
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; line-height: .02cm; opacity: .32; transform: rotate(90deg) scale(1.8) translate(-8%);'
+        >
+        〜〜〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; line-height: .02cm; opacity: .32; transform: scale(1.2) translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～〜〜〜〜
       </td>
     </tr>
   </table>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
 </zine-page>
