@@ -136,17 +136,17 @@
           <img
             alt="Alice's Five BTC"
             src='./static/alice-five.svg'
-            style='height: 1.6cm; object-fit: contain;'
+            style='height: 2cm; object-fit: contain;'
             >
         </td>
-        <td style='font-size: .48cm; transform: rotate(90deg); white-space: nowrap;'>
-          〰〰〰〰
+        <td style='font-size: .48cm; transform: rotate(90deg) scale(1.6); white-space: nowrap;'>
+          〰〰〰
         </td>
         <td style='margin: 0 auto;'>
           <img
             alt="Alice's Four BTC"
             src='./static/alice-four.svg'
-            style='height: 1.6cm; object-fit: contain;'
+            style='height: 2cm; object-fit: contain;'
             >
         </td>
       </tr>
@@ -155,25 +155,25 @@
           <img
             alt="Bob's Five BTC"
             src='./static/bob-five.svg'
-            style='height: 1.6cm; object-fit: contain;'
+            style='height: 2cm; object-fit: contain;'
             >
         </td>
-        <td style='font-size: .48cm; transform: rotate(90deg); white-space: nowrap;'>
-          〰〰〰〰
+        <td style='font-size: .48cm; transform: rotate(90deg) scale(1.6); white-space: nowrap;'>
+          〰〰〰
         </td>
         <td style='margin: 0 auto;'>
           <img
             alt="Bob's One BTC"
             src='./static/bob-six.svg'
-            style='height: 1.6cm; object-fit: contain;'
+            style='height: 2cm; object-fit: contain;'
             >
         </td>
       </tr>
     </tbody>
   </table>
-  <outlined-right-arrow class='first' style='bottom: 8.4cm; position: absolute; left: .8cm;'>
+  <outlined-right-arrow class='first' style='bottom: 8cm; position: absolute; left: .8cm;'>
   </outlined-right-arrow>
-  <outlined-right-arrow class='second' style='bottom: 8.4cm; position: absolute; right: .8cm;'>
+  <outlined-right-arrow class='second' style='bottom: 8cm; position: absolute; right: .8cm;'>
   </outlined-right-arrow>
   <p style='text-align: left;'>
     So why is this good? The first benefit is <strong>scalability.</strong>
@@ -251,17 +251,17 @@
           <img
             alt="Alice's Five BTC"
             src='./static/alice-five.svg'
-            style='height: 1.6cm; object-fit: contain;'
+            style='height: 2cm; object-fit: contain;'
             >
         </td>
-        <td style='font-size: .48cm; transform: rotate(90deg); white-space: nowrap;'>
-          〰〰〰〰
+        <td style='font-size: .48cm; transform: rotate(90deg) scale(1.6); white-space: nowrap;'>
+          〰〰〰
         </td>
         <td style='margin: 0 auto;'>
           <img
             alt="Alice's Four BTC"
             src='./static/alice-four.svg'
-            style='height: 1.6cm; object-fit: contain;'
+            style='height: 2cm; object-fit: contain;'
             >
         </td>
       </tr>
@@ -269,22 +269,22 @@
         <td style='margin: 0 auto;'>
           &nbsp;
         </td>
-        <td style='font-size: .48cm; transform: rotate(90deg) translate(1%); white-space: nowrap;'>
-          〰〰〰〰
+        <td style='font-size: .48cm; transform: rotate(90deg) scale(1.6); white-space: nowrap;'>
+          〰〰〰
         </td>
         <td style='margin: 0 auto;'>
           <img
             alt="Bob's One BTC"
             src='./static/bob-one.svg'
-            style='height: 1.6cm; object-fit: contain;'
+            style='height: 2cm; object-fit: contain;'
             >
         </td>
       </tr>
     </tbody>
   </table>
-  <outlined-right-arrow class='first' style='bottom: 3cm; position: absolute; left: .8cm;'>
+  <outlined-right-arrow class='first' style='bottom: 2.6cm; position: absolute; left: .8cm;'>
   </outlined-right-arrow>
-  <outlined-right-arrow class='second' style='bottom: 3cm; position: absolute; right: .8cm;'>
+  <outlined-right-arrow class='second' style='bottom: 2.6cm; position: absolute; right: .8cm;'>
   </outlined-right-arrow>
 </zine-page>
 

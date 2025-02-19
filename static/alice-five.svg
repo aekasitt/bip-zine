@@ -1,12 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg width='800px' height='800px' viewBox='0 0 128 128'
+<svg
+  height='800px'
+  preserveAspectRatio='xMidYMid meet'
+  viewBox='0 0 156 156'
+  version='1.1'
   xmlns='http://www.w3.org/2000/svg'
-  xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' role='img' class='iconify iconify--noto' preserveAspectRatio='xMidYMid meet'>
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  width='800px'
+  >
   <defs>
     <path id='engraving-lower'
       d='
-        M14,72
-        c0,0 40,84 104,0z
+        M14,76
+        c0,0 40,80 100,0z
       '
     />
     <path id='engraving-upper'
@@ -28,7 +34,9 @@
       }
     </style>
   </defs>
-  <g id='coin'>
+  <g id='coin'
+    transform='translate(24, 14)'
+    >
     <circle cx='64' cy='66.58' r='57.36' fill='#d68f30'>
     </circle>
     <path d='M10.54 81.48v5.86c.6 1.55 1.27 3.08 2 4.56V81.48h-2z' fill='#bc6f00'>
@@ -62,7 +70,9 @@
     <path d='M64 4.07c-31.68 0-57.36 25.68-57.36 57.36S32.32 118.79 64 118.79s57.36-25.68 57.36-57.36S95.68 4.07 64 4.07zm0 109.61c-28.86 0-52.25-23.39-52.25-52.25C11.75 32.56 35.14 9.17 64 9.17s52.25 23.39 52.25 52.25S92.86 113.68 64 113.68z' fill='#fff176'>
     </path>
   </g>
-  <g id='engravings'>
+  <g id='engravings'
+    transform='translate(24, 14)'
+    >
     <text>
       <textPath href='#engraving-upper'>
         Vires Numeris
@@ -74,7 +84,9 @@
       </textPath>
     </text>
   </g>
-  <g id='stars' transform='scale(.75) translate(20, 20)'>
+  <g id='stars'
+    transform='translate(40, 30) scale(.75)'
+    >
     <path fill='#d38200' d='M37.99 21.35l1.27 3.93l4.14-1.58v1.58l-3.35 2.43l1.28 2.34v1.59l-3.34-2.43l-3.35 2.43v-1.59l1.28-2.34l-3.34-2.43V23.7l4.13 1.58z'>
     </path>
     <path fill='#d38200' d='M22.01 43.91l1.28 3.93l4.13-1.58v1.58l-3.34 2.43l1.28 2.35v1.58l-3.35-2.43l-3.34 2.43v-1.58l1.28-2.35l-3.35-2.43v-1.58l4.14 1.58z'>
@@ -116,12 +128,14 @@
     <path fill='#fff176' d='M37.99 19.76l-1.28 3.93h-4.13l3.34 2.43l-1.28 3.93l3.35-2.43l3.34 2.43l-1.28-3.93l3.35-2.43h-4.14z'>
     </path>
   </g>
-  <text text-anchor='middle' x='64' y='64'>
+  <text text-anchor='middle' x='88' y='78'>
     <tspan dy='1.5rem' font-size='5rem'>
       5
     </tspan>
   </text>
-  <g id='tag' transform='scale(.12)'>
+  <g id='tag'
+    transform='translate(-64, -50) scale(.15)'
+    transform-origin='center'>
     <path
       d='
         M386.251,134.696
@@ -201,15 +215,17 @@
       fill='#7F8499'
     />
   </g>
-  <text
-    id='name'
-    x='0'
-    y='50'
+  <text id='name'
     text-anchor='middle'
-    transform='rotate(-45)'>
+    transform-origin='44 64'
+    transform='rotate(-45)'
+    x='44'
+    y='64'
+    >
     <tspan
       fill='white'
-      font-size='1.2rem'
+      font-size='1.6rem'
+      font-weight='bold'
       >
       Alice
     </tspan>
