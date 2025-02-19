@@ -17,45 +17,78 @@
       </td>
     </tr>
   </table>
-  <h3>
+  <h3 class='lean'>
     อยากเรียนรู้เพิ่มเติมรึเปล่า?
   </h3>
   <p class='text-left'>
-    <arrow-right class='first'></arrow-right>
+    <arrow-right class='first'/>
     ตรวจสอบข้อนำเสนอบิ๊พส์ทั้งหมดได้ที่:
     github.com/bitcoin/bips
   </p>
   <p class='text-left'>
-    <arrow-right class='second'></arrow-right>
+    <arrow-right class='second' />
     ติดตามเมลลิ่งลิสท์ของ <bitcoin></bitcoin> dev
     คุณจะเป็นคนกลุ่มแรกที่ได้ยินเกี่ยวกับ ข้อนำเสนอบิ๊พส์ใหม่ๆ
     และการอัปเดตที่กำลังดำเนินอยู่
   </p>
   <br />
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <table>
-    <tr>
-      <td>
-        <div class='small squiggly-vert squiggly-vert-1'></div>
-        <div class='small squiggly-vert squiggly-vert-2'></div>
+  <table class='contents-centered'>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-2.4%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～～
       </td>
-      <td>
-        <p class='text-center'>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.24cm; opacity: .4; transform: rotate(90deg) translate(-14%);'
+        >
+        〜〜〜
+      </td>
+      <td class='lean seamless'>
           ยังไม่หนำใจ? ตามไปต่อกันที่เว็บไซต์
           https://satsie.dev/bips
-          <br />
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.24cm; opacity: .4; transform: rotate(90deg) translate(-14%);'
+        >
+        〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.24cm; opacity: .4; transform: rotate(90deg);'
+        >
+        〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean text-center text-squeezed'>
           อ่านเอกสารเคียงคู่อื่นๆได้
         </p>
       </td>
-      <td>
-        <div class='small squiggly-vert squiggly-vert-1'></div>
-        <div class='small squiggly-vert squiggly-vert-2'></div>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.24cm; opacity: .4; transform: rotate(90deg);'
+        >
+        〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-2.4%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
 </zine-page>
 
 <zine-page class='right th'>
@@ -82,7 +115,7 @@
   <br />
   <br />
   รวมไม่กี่สาระเกี่ยวกับ `บิ๊พส์`
-  <hr />
+  <hr style='width: 40%'/>
   แล้วเหตุใดมันได้ (บางครั้ง) ถูกเลือกให้
   <br />
   แจ้งกำเนิด
@@ -92,45 +125,117 @@
   <page-num>
     หน้า ๖ (6)
   </page-num>
-  <p class='text-center'>
+  <p class='lean text-center'>
     เดี๋ยวก่อน นี่มันเป็นแค่จุดเริ่มต้น...
   </p>
-  <h3>
+  <h3 class='lean'>
     บิ๊พส์จะถูกยอมรับและนำมาปรับใช้ภายในโค้ดของบิทคอยน์ได้อย่างไร?
   </h3>
-  <p>
+  <p class='lean text-small text-squeezed'>
     ผู้ตัดสินคือเสียงเรียกร้องของชุมชน มันขึ้นอยู่กับผู้นำเสนอบิ๊พส์
     และเหล่ากองเชียร์ว่านำพาผ่านเข้าเส้นชัยหรือไม่ อาศัยแรงจูงใจ
     ผู้ใช้บิทคอยน์คนรอบข้าง ให้เรียกร้องด้วยกัน
   </p>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <table>
-    <tr>
-      <td>
-        <div class='x-large squiggly-vert squiggly-vert-1'></div>
-        <div class='x-large squiggly-vert squiggly-vert-2'></div>
+  <table class='contents-centered'>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-2.4%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～～～
       </td>
-      <td>
-        'The BIP author is responsible for building consensus
-        in the community and documenting dissenting opinions'
-        -- from BIP-2
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
+        >
+        〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean text-left text-small'>
+          'The BIP author is responsible for building consensus and documenting dissenting opinions'
+        </p>
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
+        >
+        〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
+        >
+        〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean text-left text-small'>
+          -- from BIP-2
+        </p>
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
+        >
+        〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-8%);'
+        >
+        〜〜〜
+      </td>
+      <td class='lean seamless'>
         <hr />
-        <p>
-          'ตนเป็นที่พึ่งแห่งตน แล้วเขียนให้ชาวบ้านเห็นว่าใครติชมยังไงด้วย'
+        <p class='lean text-left text-small'>
+          'ตนเป็นที่พึ่งแห่งตน แล้วเขียนให้
           <br />
+          ชาวบ้านเห็นว่าใครติชมยังไงด้วย'
+        </p>
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-8%);'
+        >
+        〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-10%);'
+        >
+        〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean text-left text-small'>
           -- หลวงพ่อนาคาโมโตะ
         </p>
       </td>
-      <td>
-        <div class='x-large squiggly-vert squiggly-vert-1'></div>
-        <div class='x-large squiggly-vert squiggly-vert-2'></div>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-10%);'
+        >
+        〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-2.4%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <p>
+  <p class='text-left text-small text-squeezed'>
     สีสันของการพัฒนาบิทคอยน์นั้นมาจากการไร้ศูนย์ของอาสาสมัคร ใครๆก็สามารถเขียนบิ๊พส์
     ซึ่งหมายความว่าไม่มีผู้ใดกุมอำนาจ บังคับคนอื่นๆให้มอบเวลาหรือทรัพยากรได้
     หาใช่หน้าที่คนอื่นๆรับตรวจสอบข้อนำเสนอบิ๊พส์ที่คุญเขียน หรือตอบรับตอบโต้กับคุณ
@@ -141,38 +246,74 @@
   <page-num>
     หน้า ๓ (3)
   </page-num>
-  <p>
+  <p class='text-squeezed'>
     สิ่งสำคัญคือทุกคนที่ทำงานกับ ข้อนำเสนอบิ๊พส์
     เห็นคล้องกันกับวิธีการสื่อสารเกี่ยวกับมัน.
     จะใช้คำศัพท์ประเภทไหน? ข้อมูลมีโครงสร้างอย่างไร?
     กฎเหล่านี้ของการสื่อสารเรียกว่าโปรโตคอล
     เป็นสิ่งหนึ่งที่เหมือนกันในการปรับใช้ข้อนำเสนอบิ๊พส์ทั้งหมด
   </p>
-  <h3>
+  <h3 class='lean'>
     คุณจะเสนอข้อพัฒนาบิ๊พส์ได้อย่างไร?
   </h3>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <table>
-    <tr>
-      <td>
-        <div class='medium squiggly-vert squiggly-vert-1'></div>
-        <div class='medium squiggly-vert squiggly-vert-2'></div>
+  <table class='contents-centered'>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～～～
       </td>
-      <td>
-        <p>
-          ก่อนจะเรื่มกัน: มาทำการบ้านไตร่ตรองไอเดียที่เสนอหรือ
-          ข้อคิดปรับปรุงในเชิงใกล้เคียง ไม่ได้มีข้อเสนอล่วงหน้าไว้
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
+        >
+        〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean'>
+          ก่อนจะเรื่มกัน: มาทำการบ้านไตร่ตรองไอเดียที่เสนอ
         </p>
       </td>
-      <td>
-        <div class='medium squiggly-vert squiggly-vert-1'></div>
-        <div class='medium squiggly-vert squiggly-vert-2'></div>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
+        >
+        〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
+        >
+        〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean'>
+          หรือข้อคิดปรับปรุงในเชิงใกล้เคียง ไม่ได้มีข้อเสนอล่วงหน้าไว้
+        </p>
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
+        >
+        〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
   <p>
     ขั้นตอนที่ ๑: แชร์ไอเดียบน บิทคอยน์เดฟเมลลิ่งลิสท์ (<bitcoin></bitcoin>-dev mailing list)
     เป็นการให้โอกาสให้ชุมขนเดฟที่อ่านเชนเมลล์ และเช็คให้มั่นใจว่าไม่เคยมีคนเสนอ
@@ -206,36 +347,54 @@
     บิ๊พส์เป็นวิธีสำหรับผู้คนในการแบ่งปันเอกสารทางเทคนิค
     + แนวคิดในการปรับปรุงบิทคอยน์
   </p>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <table>
-    <tr>
-      <td>
-        <div class='x-small squiggly-vert squiggly-vert-1'></div>
-        <div class='x-small squiggly-vert squiggly-vert-2'></div>
+  <table class='contents-centered'>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～
       </td>
-      <td>
-        <p class='text-center'>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
+        >
+        〜〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean text-center'>
           สามารถดูข้อนำเสนอบิ๊พส์ ทั้งหมดได้ที่:
           Github.com/bitcoin/bips
         </p>
       </td>
-      <td>
-        <div class='x-small squiggly-vert squiggly-vert-1'></div>
-        <div class='x-small squiggly-vert squiggly-vert-2'></div>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
+        >
+        〜〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <p class='text-squeezed'>
+  <p class='text-small'>
     แต่ละบิ๊พส์มีหมายเลข (เช่น BIP-324) ซึ่งทำให้ผู้คนค้นหาและอ้างอิงแนวคิดได้ง่าย
     อาจเป็นเรื่องยากที่จะมองหาเอกสารเกี่ยวกับสิ่งที่ไม่เคยยื่นเป็นข้อเสนอบิ๊พส์!
   </p>
   <p class='text-center'>
     อะไรก็เขียนเป็นบิ๊พส์ได้เหรอ?
   </p>
-  <p class='text-left text-squeezed'>
+  <p>
     ไม่ได้สิ ปกติแล้วข้อนำเสนอบิ๊พส์จะเหมาะที่สุดสำหรับแนวคิดประเภทต่างๆ
     ที่โครงการซอฟต์แวร์หลายๆรหัสฐาน จะต้องการใช้ หากแนวคิดเกี่ยวข้อง
     กับรหัสฐานหรือโปรเจ็คเดียวเท่านั้น แนวคิดนั้นอาจไม่เหมาะเป็นข้อนำเสนอบิ๊พส์
@@ -281,9 +440,11 @@
     ตรวจสอบให้แน่ใจว่างานของคุณชัดเจนและสมบูรณ์
     ใช้คู่มือการจัดรูปแบบจาก BIP-2 และ *อย่า* กำหนดตัวเลขให้กับข้อนำเสนอบิ๊พส์ของคุณ!
   </p>
+  <br />
   <div class='lean' style='font-size: .64cm; font-weight: 700; white-space: nowrap;'>
     〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
   </div>
+  <br />
   <p>
     เคล็ดลับ: สิ่งสำคัญคือสามารถนำข้อนำเสนอบิ๊พส์ ของคุณไปใช้ได้
     ผู้เขียนบางคนชอบที่จะเขียนโค้ดก่อน ก่อนที่จะร่างข้อนำเสนอบิ๊พส์
@@ -331,36 +492,72 @@
     </tr>
   </table>
   <br />
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
-  <table>
-    <tr>
-      <td>
-        <div class='x-large squiggly-vert squiggly-vert-1'></div>
-        <div class='x-large squiggly-vert squiggly-vert-2'></div>
+  <table class='contents-centered'>
+    <tr class='lean'>
+      <td
+        class='seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm;  line-height: 0; opacity: .32; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～〜〜〜〜〜〜〜〜
       </td>
-      <td class='text-left'>
-        เหตุผลที่ข้อนำเสนอบิ๊พส์ อาจถูกปฏิเสธ:
-        <br />
-        * ข้อเสนอคล้ายกับที่มีอยู่
-        <br />
-        * การจัดรูปแบบไม่ถูกต้อง
-        <br />
-        * กว้างเกินไปขาดโฟกัส
-        <br />
-        * ไม่สามารถทำได้ในทางเทคนิค
-        <br />
-        * ขัดข้องกับแรงจูงใจนำพาฟีเจอร์ หรือตัดกับความสามารถเดิมของระบบ
-        <br />
-        * ไม่สอดคล้องกับปรัชญาของ Bitcoin
-        <br />
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .32; transform: rotate(90deg) translate(-6%);'
+        >
+        〜〜〜〜〜
       </td>
-      <td>
-        <div class='x-large squiggly-vert squiggly-vert-1'></div>
-        <div class='x-large squiggly-vert squiggly-vert-2'></div>
+      <td class='lean seamless'>
+        <p class='lean text-small text-squeezed'>
+          เหตุผลที่ข้อนำเสนอบิ๊พส์ อาจถูกปฏิเสธ:
+          <br />
+          * ข้อเสนอคล้ายกับที่มีอยู่
+          <br />
+          * การจัดรูปแบบไม่ถูกต้อง
+          <br />
+          * กว้างเกินไปขาดโฟกัส
+        </p>
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .32; transform: rotate(90deg) translate(-6%);'
+        >
+        〜〜〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .32; transform: rotate(90deg) translate(-12%);'
+        >
+        〜〜〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean text-small text-squeezed'>
+          * ไม่สามารถทำได้ในทางเทคนิค
+          <br />
+          * ขัดข้องกับแรงจูงใจนำพาฟีเจอร์ หรือตัดกับความสามารถเดิมของระบบ
+          <br />
+          * ไม่สอดคล้องกับปรัชญาของ <bitcoin></bitcoin>
+        </p>
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .32; transform: rotate(90deg) translate(-12%);'
+        >
+        〜〜〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .72cm; letter-spacing: -.32cm; line-height: 0; opacity: .32; transform: translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～〜〜〜〜〜〜〜〜
       </td>
     </tr>
   </table>
-  <div class='squiggly squiggly-1'></div>
-  <div class='squiggly squiggly-2'></div>
 </zine-page>
