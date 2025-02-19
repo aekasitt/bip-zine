@@ -7,7 +7,8 @@ bitcoin:after {
   content: 'bitcoin';
 }
 
-/* english headers */
+/* default headers */
+
 h1, h2, h3 {
   font-family: 'Mali';
   font-weight: normal;
@@ -33,7 +34,9 @@ h3 {
   margin-left: 1cm;
   margin-right: 1cm;
 }
-/* english paragraphs */
+
+/* default paragraphs */
+
 * {
   font-family: 'Mali';
   font-weight: light;
@@ -73,10 +76,10 @@ p {
 /* thai paragraphs */
 
 .th p {
-  font-size: .3cm;
-  line-height: .5cm;
-  padding-left: 1.25cm;
-  padding-right: 1.25cm;
+  font-size: .32cm;
+  line-height: .56cm;
+  padding-left: 1.5cm;
+  padding-right: 1.5cm;
 }
 
 /* alignments */

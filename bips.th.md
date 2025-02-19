@@ -1,11 +1,11 @@
-<zine-page class="left th">
+<zine-page class='left th'>
   <page-num>
     หน้า ๘ (8)
   </page-num>
-  <table class="contents-centered">
+  <table class='contents-centered'>
     <tr>
       <td>
-        <small-splash-left />
+        <small-splash-left></small-splash-left>
       </td>
       <td>
         <h2>
@@ -13,35 +13,35 @@
         </h2>
       </td>
       <td>
-        <small-splash-right />
+        <small-splash-right></small-splash-right>
       </td>
     </tr>
   </table>
   <h3>
     อยากเรียนรู้เพิ่มเติมรึเปล่า?
   </h3>
-  <p class="text-left">
-    <arrow-right class="first"/>
+  <p class='text-left'>
+    <arrow-right class='first'></arrow-right>
     ตรวจสอบข้อนำเสนอบิ๊พส์ทั้งหมดได้ที่:
     github.com/bitcoin/bips
   </p>
-  <p class="text-left">
-    <arrow-right class="second" />
+  <p class='text-left'>
+    <arrow-right class='second'></arrow-right>
     ติดตามเมลลิ่งลิสท์ของ <bitcoin></bitcoin> dev
     คุณจะเป็นคนกลุ่มแรกที่ได้ยินเกี่ยวกับ ข้อนำเสนอบิ๊พส์ใหม่ๆ
     และการอัปเดตที่กำลังดำเนินอยู่
   </p>
   <br />
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
   <table>
     <tr>
       <td>
-        <div class="small squiggly-vert squiggly-vert-1"></div>
-        <div class="small squiggly-vert squiggly-vert-2"></div>
+        <div class='small squiggly-vert squiggly-vert-1'></div>
+        <div class='small squiggly-vert squiggly-vert-2'></div>
       </td>
       <td>
-        <p class="text-center">
+        <p class='text-center'>
           ยังไม่หนำใจ? ตามไปต่อกันที่เว็บไซต์
           https://satsie.dev/bips
           <br />
@@ -49,23 +49,23 @@
         </p>
       </td>
       <td>
-        <div class="small squiggly-vert squiggly-vert-1"></div>
-        <div class="small squiggly-vert squiggly-vert-2"></div>
+        <div class='small squiggly-vert squiggly-vert-1'></div>
+        <div class='small squiggly-vert squiggly-vert-2'></div>
       </td>
     </tr>
   </table>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
 </zine-page>
 
-<zine-page class="right th">
+<zine-page class='right th'>
   <page-num>
     หน้า ๑ (1)
   </page-num>
   <table>
     <tr>
       <td>
-        <splash-left />
+        <splash-left></splash-left>
       </td>
       <td>
         <h1>
@@ -75,24 +75,24 @@
         </h1>
       </td>
       <td>
-        <splash-left class="background-mirrored"/>
+        <splash-left class='background-mirrored'></splash-left>
       </td>
     </tr>
   </table>
   <br />
   <br />
   รวมไม่กี่สาระเกี่ยวกับ `บิ๊พส์`
-  <hr style="width: 40%"/>
+  <hr />
   แล้วเหตุใดมันได้ (บางครั้ง) ถูกเลือกให้
   <br />
   แจ้งกำเนิด
 </zine-page>
 
-<zine-page class="left th">
+<zine-page class='left th'>
   <page-num>
     หน้า ๖ (6)
   </page-num>
-  <p class="text-center">
+  <p class='text-center'>
     เดี๋ยวก่อน นี่มันเป็นแค่จุดเริ่มต้น...
   </p>
   <h3>
@@ -103,33 +103,33 @@
     และเหล่ากองเชียร์ว่านำพาผ่านเข้าเส้นชัยหรือไม่ อาศัยแรงจูงใจ
     ผู้ใช้บิทคอยน์คนรอบข้าง ให้เรียกร้องด้วยกัน
   </p>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
   <table>
     <tr>
       <td>
-        <div class="x-large squiggly-vert squiggly-vert-1"></div>
-        <div class="x-large squiggly-vert squiggly-vert-2"></div>
+        <div class='x-large squiggly-vert squiggly-vert-1'></div>
+        <div class='x-large squiggly-vert squiggly-vert-2'></div>
       </td>
       <td>
-        "The BIP author is responsible for building consensus
-        in the community and documenting dissenting opinions"
+        'The BIP author is responsible for building consensus
+        in the community and documenting dissenting opinions'
         -- from BIP-2
         <hr />
         <p>
-          "ตนเป็นที่พึ่งแห่งตน แล้วเขียนให้ชาวบ้านเห็นว่าใครติชมยังไงด้วย"
+          'ตนเป็นที่พึ่งแห่งตน แล้วเขียนให้ชาวบ้านเห็นว่าใครติชมยังไงด้วย'
           <br />
           -- หลวงพ่อนาคาโมโตะ
         </p>
       </td>
       <td>
-        <div class="x-large squiggly-vert squiggly-vert-1"></div>
-        <div class="x-large squiggly-vert squiggly-vert-2"></div>
+        <div class='x-large squiggly-vert squiggly-vert-1'></div>
+        <div class='x-large squiggly-vert squiggly-vert-2'></div>
       </td>
     </tr>
   </table>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
   <p>
     สีสันของการพัฒนาบิทคอยน์นั้นมาจากการไร้ศูนย์ของอาสาสมัคร ใครๆก็สามารถเขียนบิ๊พส์
     ซึ่งหมายความว่าไม่มีผู้ใดกุมอำนาจ บังคับคนอื่นๆให้มอบเวลาหรือทรัพยากรได้
@@ -137,7 +137,7 @@
   </p>
 </zine-page>
 
-<zine-page class="right th">
+<zine-page class='right th'>
   <page-num>
     หน้า ๓ (3)
   </page-num>
@@ -151,13 +151,13 @@
   <h3>
     คุณจะเสนอข้อพัฒนาบิ๊พส์ได้อย่างไร?
   </h3>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
   <table>
     <tr>
       <td>
-        <div class="medium squiggly-vert squiggly-vert-1"></div>
-        <div class="medium squiggly-vert squiggly-vert-2"></div>
+        <div class='medium squiggly-vert squiggly-vert-1'></div>
+        <div class='medium squiggly-vert squiggly-vert-2'></div>
       </td>
       <td>
         <p>
@@ -166,13 +166,13 @@
         </p>
       </td>
       <td>
-        <div class="medium squiggly-vert squiggly-vert-1"></div>
-        <div class="medium squiggly-vert squiggly-vert-2"></div>
+        <div class='medium squiggly-vert squiggly-vert-1'></div>
+        <div class='medium squiggly-vert squiggly-vert-2'></div>
       </td>
     </tr>
   </table>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
   <p>
     ขั้นตอนที่ ๑: แชร์ไอเดียบน บิทคอยน์เดฟเมลลิ่งลิสท์ (<bitcoin></bitcoin>-dev mailing list)
     เป็นการให้โอกาสให้ชุมขนเดฟที่อ่านเชนเมลล์ และเช็คให้มั่นใจว่าไม่เคยมีคนเสนอ
@@ -181,24 +181,24 @@
   </p>
 </zine-page>
 
-<zine-page class="left th">
+<zine-page class='left th'>
   <page-num>
     หน้า ๒ (2)
   </page-num>
-  <table class="contents-centered">
+  <table class='contents-centered'>
     <tr>
       <td>
-        <small-splash-left />
+        <small-splash-left></small-splash-left>
       </td>
       <td>
-        <h3 class="text-center">
+        <h3 class='text-center'>
           บิ๊พส์ ย่อมาจาก: บิทคอยน์อิมพรูฟเมนท์โพรโพซอล
           <br />
-          <span class="translator-note">*(แปลว่า ข้อเสนอพัฒนาบิทคอยน์)</span>
+          <span class='translator-note'>*(แปลว่า ข้อเสนอพัฒนาบิทคอยน์)</span>
         </h3>
       </td>
       <td>
-        <small-splash-right />
+        <small-splash-right></small-splash-right>
       </td>
     </tr>
   </table>
@@ -206,47 +206,47 @@
     บิ๊พส์เป็นวิธีสำหรับผู้คนในการแบ่งปันเอกสารทางเทคนิค
     + แนวคิดในการปรับปรุงบิทคอยน์
   </p>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
   <table>
     <tr>
       <td>
-        <div class="x-small squiggly-vert squiggly-vert-1"></div>
-        <div class="x-small squiggly-vert squiggly-vert-2"></div>
+        <div class='x-small squiggly-vert squiggly-vert-1'></div>
+        <div class='x-small squiggly-vert squiggly-vert-2'></div>
       </td>
       <td>
-        <p class="text-center">
+        <p class='text-center'>
           สามารถดูข้อนำเสนอบิ๊พส์ ทั้งหมดได้ที่:
           Github.com/bitcoin/bips
         </p>
       </td>
       <td>
-        <div class="x-small squiggly-vert squiggly-vert-1"></div>
-        <div class="x-small squiggly-vert squiggly-vert-2"></div>
+        <div class='x-small squiggly-vert squiggly-vert-1'></div>
+        <div class='x-small squiggly-vert squiggly-vert-2'></div>
       </td>
     </tr>
   </table>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
-  <p>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
+  <p class='text-squeezed'>
     แต่ละบิ๊พส์มีหมายเลข (เช่น BIP-324) ซึ่งทำให้ผู้คนค้นหาและอ้างอิงแนวคิดได้ง่าย
     อาจเป็นเรื่องยากที่จะมองหาเอกสารเกี่ยวกับสิ่งที่ไม่เคยยื่นเป็นข้อเสนอบิ๊พส์!
   </p>
-  <p class="text-center">
+  <p class='text-center'>
     อะไรก็เขียนเป็นบิ๊พส์ได้เหรอ?
   </p>
-  <p>
+  <p class='text-left text-squeezed'>
     ไม่ได้สิ ปกติแล้วข้อนำเสนอบิ๊พส์จะเหมาะที่สุดสำหรับแนวคิดประเภทต่างๆ
     ที่โครงการซอฟต์แวร์หลายๆรหัสฐาน จะต้องการใช้ หากแนวคิดเกี่ยวข้อง
     กับรหัสฐานหรือโปรเจ็คเดียวเท่านั้น แนวคิดนั้นอาจไม่เหมาะเป็นข้อนำเสนอบิ๊พส์
   </p>
 </zine-page>
 
-<zine-page class="right th">
+<zine-page class='right th'>
   <page-num>
     หน้า ๗ (7)
   </page-num>
-  <p class="text-center">
+  <p class='text-center'>
     บางครั้งผู้เขียนต้องมีความอดทนต่อการตอบรับของชุมชนนักพัฒนา
     บิ๊พส์ยอดนิยมใหม่ๆ บางหัวข้อเสียเวลาหลายเดือนก่อนจะมีใครสังเกตเห็น
   </p>
@@ -265,13 +265,13 @@
   <p>
     บิ๊พส์บางหัวข้อต้องจบลงด้วยการถูกถอนออก หรือถูกปฏิเสธ
   </p>
-  <p class="text-center">
+  <p class='text-center'>
     โปรดจำไว้เสมอ เพียงเพราะบางสิ่งเป็นข้อเสนอบิ๊พ
     ไม่ได้หมายความว่ามันเคยเป็นส่วงหนึ่งของรหัสฐานหรือจะถูกนำไปใช้จริง :)
   </p>
 </zine-page>
 
-<zine-page class="left th">
+<zine-page class='left th'>
   <page-num>
     หน้า ๔ (4)
   </page-num>
@@ -281,28 +281,27 @@
     ตรวจสอบให้แน่ใจว่างานของคุณชัดเจนและสมบูรณ์
     ใช้คู่มือการจัดรูปแบบจาก BIP-2 และ *อย่า* กำหนดตัวเลขให้กับข้อนำเสนอบิ๊พส์ของคุณ!
   </p>
-  <br />
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
-  <br />
+  <div class='lean' style='font-size: .64cm; font-weight: 700; white-space: nowrap;'>
+    〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
+  </div>
   <p>
     เคล็ดลับ: สิ่งสำคัญคือสามารถนำข้อนำเสนอบิ๊พส์ ของคุณไปใช้ได้
     ผู้เขียนบางคนชอบที่จะเขียนโค้ดก่อน ก่อนที่จะร่างข้อนำเสนอบิ๊พส์
     ซึ่งมีประโยชน์อย่างเช่น
   </p>
-  <p class="text-left">
+  <p class='text-left'>
     ๑. พิสูจน์ว่าสามารถนำแนวคิดไปปฏิบัติได้
   </p>
-  <p class="text-left">
-    ๒. สามารถนำไปดัดแปลงใช้เป็นตัวอย่าง "การใช้งานอ้างอิง"
+  <p class='text-left'>
+    ๒. สามารถนำไปดัดแปลงใช้เป็นตัวอย่าง 'การใช้งานอ้างอิง'
     ของวิธีดำเนินการข้อนำเสนอบิ๊พส์
   </p>
-  <p class="text-left">
+  <p class='text-left'>
     ๓. จัดทำชุดบันทึกย่อสำหรับนักพัฒนาที่สามารถใช้ในการเขียนข้อนำเสนอบิ๊พส์
   </p>
 </zine-page>
 
-<zine-page class="right th">
+<zine-page class='right th'>
   <page-num>
     หน้า ๕ (5)
   </page-num>
@@ -318,29 +317,29 @@
     Standards Track, Informational หรือ Process
     จากนั้นพวกเขาก็ยอมรับข้อนำเสนอบิ๊พส์ โดยการรวม PR เข้ากับ repo
   </p>
-  <table class="contents-centered">
+  <table class='contents-centered'>
     <tr>
       <td>
-        <small-splash-left />
+        <small-splash-left></small-splash-left>
       </td>
       <td>
         ไชโย!!!
       </td>
       <td>
-        <small-splash-right />
+        <small-splash-right></small-splash-right>
       </td>
     </tr>
   </table>
   <br />
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
   <table>
     <tr>
       <td>
-        <div class="x-large squiggly-vert squiggly-vert-1"></div>
-        <div class="x-large squiggly-vert squiggly-vert-2"></div>
+        <div class='x-large squiggly-vert squiggly-vert-1'></div>
+        <div class='x-large squiggly-vert squiggly-vert-2'></div>
       </td>
-      <td class="text-left">
+      <td class='text-left'>
         เหตุผลที่ข้อนำเสนอบิ๊พส์ อาจถูกปฏิเสธ:
         <br />
         * ข้อเสนอคล้ายกับที่มีอยู่
@@ -357,11 +356,11 @@
         <br />
       </td>
       <td>
-        <div class="x-large squiggly-vert squiggly-vert-1"></div>
-        <div class="x-large squiggly-vert squiggly-vert-2"></div>
+        <div class='x-large squiggly-vert squiggly-vert-1'></div>
+        <div class='x-large squiggly-vert squiggly-vert-2'></div>
       </td>
     </tr>
   </table>
-  <div class="squiggly squiggly-1"></div>
-  <div class="squiggly squiggly-2"></div>
+  <div class='squiggly squiggly-1'></div>
+  <div class='squiggly squiggly-2'></div>
 </zine-page>

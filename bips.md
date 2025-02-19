@@ -5,7 +5,7 @@
   <table class='contents-centered'>
     <tr>
       <td>
-        <small-splash-left />
+        <small-splash-left></small-splash-left>
       </td>
       <td>
         <h2>
@@ -13,7 +13,7 @@
         </h2>
       </td>
       <td>
-        <small-splash-right />
+        <small-splash-right></small-splash-right>
       </td>
     </tr>
   </table>
@@ -21,12 +21,12 @@
     Want to learn more?
   </h3>
   <p class='text-left'>
-    <arrow-right class='first' />
+    <arrow-right class='first'></arrow-right>
     check out the complete list of BIPs:
     github.com/bitcoin/bips
   </p>
   <p class='text-left'>
-    <arrow-right class='second' />
+    <arrow-right class='second'></arrow-right>
     start following the <bitcoin></bitcoin>
     dev mailing list. You'll be among the
     first to hear about new BIPs and updates
@@ -82,7 +82,7 @@
   <table style='margin: 1cm auto;'>
     <tr>
       <td class='lean'>
-        <splash-left />
+        <splash-left></splash-left>
       </td>
       <td>
         <h1 class='contents-centerd'>
@@ -92,7 +92,7 @@
         </h1>
       </td>
       <td class='lean'>
-        <splash-left class='background-mirrored'/>
+        <splash-left class='background-mirrored'></splash-left>
       </td>
     </tr>
   </table>
