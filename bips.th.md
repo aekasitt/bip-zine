@@ -149,7 +149,7 @@
     <tr class='lean'>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-24%);'
         >
         〜〜〜
       </td>
@@ -160,7 +160,7 @@
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-24%);'
         >
         〜〜〜
       </td>
@@ -168,9 +168,9 @@
     <tr class='lean'>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
         >
-        〜〜〜
+        〜〜
       </td>
       <td class='lean seamless'>
         <p class='lean text-left text-small'>
@@ -179,9 +179,9 @@
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
         >
-        〜〜〜
+        〜〜
       </td>
     </tr>
     <tr class='lean'>
@@ -209,9 +209,9 @@
     <tr class='lean'>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-10%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-4%);'
         >
-        〜〜〜
+        〜〜
       </td>
       <td class='lean seamless'>
         <p class='lean text-left text-small'>
@@ -220,9 +220,9 @@
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-10%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-4%);'
         >
-        〜〜〜
+        〜〜
       </td>
     </tr>
     <tr class='lean'>
@@ -263,7 +263,7 @@
         colspan='3'
         style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
     <tr class='lean'>
@@ -271,29 +271,11 @@
         class='lean seamless'
         style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
         >
-        〜〜〜
+        〜〜〜〜〜
       </td>
       <td class='lean seamless'>
         <p class='lean'>
           ก่อนจะเรื่มกัน: มาทำการบ้านไตร่ตรองไอเดียที่เสนอ
-        </p>
-      </td>
-      <td
-        class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
-        >
-        〜〜〜
-      </td>
-    </tr>
-    <tr class='lean'>
-      <td
-        class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
-        >
-        〜〜〜
-      </td>
-      <td class='lean seamless'>
-        <p class='lean'>
           หรือข้อคิดปรับปรุงในเชิงใกล้เคียง ไม่ได้มีข้อเสนอล่วงหน้าไว้
         </p>
       </td>
@@ -301,7 +283,7 @@
         class='lean seamless'
         style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
         >
-        〜〜〜
+        〜〜〜〜〜
       </td>
     </tr>
     <tr class='lean'>
@@ -310,7 +292,7 @@
         colspan='3'
         style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
