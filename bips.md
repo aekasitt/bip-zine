@@ -46,7 +46,7 @@
     <tr class='lean'>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.1) translate(-12%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) translate(-12%);'
         >
         〜〜〜〜〜
       </td>
@@ -61,7 +61,7 @@
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.1) translate(-12%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) translate(-12%);'
         >
         〜〜〜〜〜
       </td>
@@ -137,7 +137,7 @@
     <tr class='lean'>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) scale(1.4) translate(-6%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
         >
         〜〜〜〜〜〜
       </td>
@@ -150,7 +150,7 @@
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.4) translate(-6%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) translate(-6%);'
         >
         〜〜〜〜〜〜
       </td>
@@ -191,7 +191,7 @@
     How do you make a BIP?
   </h3>
   <table class='contents-centered'>
-    <tr style='margin: auto 0;'>
+    <tr>
       <td
         class='lean seamless'
         colspan='3'
@@ -203,19 +203,19 @@
     <tr class='lean'>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.2) translate(-10%);'
+        style='font-size: .72cm; letter-spacing: -.36cm; line-height: .2cm; opacity: .4; transform: rotate(90deg) translate(-3%);'
         >
         〜〜〜〜〜〜
       </td>
       <td class='lean seamless'>
-        <p class='lean'>
+        <p class='lean text-small'>
           Before you begin: do some homework to see if your idea,
           or something like it has been proposed before.
         </p>
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) scale(1.2) translate(-6%);'
+        style='font-size: .72cm; letter-spacing: -.36cm; opacity: .4; transform: rotate(90deg) translate(-3%);'
         >
         〜〜〜〜〜〜
       </td>
@@ -276,7 +276,7 @@
     <tr class='lean'>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.1) translate(-12%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
         >
         〜〜〜〜
       </td>
@@ -289,7 +289,7 @@
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) scale(1.1) translate(-12%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-12%);'
         >
         〜〜〜〜
       </td>
@@ -367,7 +367,7 @@
     your BIP!
   </p>
   <br />
-  <div class='lean' style='font-size: .64cm; font-weight: 700; white-space: nowrap;'>
+  <div class='lean' style='font-size: .64cm; font-weight: bold; white-space: nowrap;'>
     〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
   </div>
   <br />
@@ -423,31 +423,48 @@
   </table>
   <br />
   <table class='contents-centered'>
-    <tr style='margin: auto 0;'>
+    <tr>
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .72cm; letter-spacing: -.32cm; line-height: .02cm; opacity: .32; transform: scale(1.2) translate(-1.2%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .32; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～〜〜〜〜
+        ～～～～～～～～～～～～〜〜〜〜〜〜〜〜
       </td>
     </tr>
     <tr class='lean'>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; line-height: .02cm;  opacity: .32; transform: rotate(-90deg) scale(1.8) translate(-10%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .32; transform: rotate(90deg);'
         >
         〜〜〜〜〜
       </td>
       <td class='lean seamless'>
         <p class='lean text-small text-squeezed'>
           Reasons why a BIP may be rejected:
-       </p>
-       <p class='lean text-left text-small text-squeezed' style='margin-left: .25cm;'>
+          <br />
           * proposal is similar to an existing one
           <br />
           * incorrect formatting
           <br />
+        </p>
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .32; transform: rotate(90deg);'
+        >
+        〜〜〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .32; transform: rotate(90deg);'
+        >
+        〜〜〜〜〜
+      </td>
+      <td class='lean seamless'>
+        <p class='lean text-small text-squeezed'>
           * too broad, lack of focus
           <br />
           * not technically sound
@@ -459,7 +476,7 @@
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; letter-spacing: -.32cm; line-height: .02cm; opacity: .32; transform: rotate(90deg) scale(1.8) translate(-8%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .32; transform: rotate(90deg);'
         >
         〜〜〜〜〜
       </td>
@@ -468,9 +485,9 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .72cm; letter-spacing: -.32cm; line-height: .02cm; opacity: .32; transform: scale(1.2) translate(-1.2%);'
+        style='font-size: .72cm; letter-spacing: -.32cm; opacity: .32; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～〜〜〜〜
+        ～～～～～～～～～～～～〜〜〜〜〜〜〜〜
       </td>
     </tr>
   </table>
