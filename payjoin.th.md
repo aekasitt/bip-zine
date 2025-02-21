@@ -115,19 +115,19 @@
 
 <zine-page class='right'>
   <page-num>
-    3
+    หน้า ๓ (3)
   </page-num>
   <p style='text-align: left;'>
-    With payjoin, the receiver also contributes an input. Let's
-    say Bob already has 5 BTC in his wallet and he wants to use
-    that in a payjoin tx. It would look like this:
+    โดยการใช้เพย์จอยน์ ผู้รับเสนออินพุทร่วมสร้างธุรกรรมได้ ถ้าหากบ๊อบ
+    มีเหรียญบิทคอยน์จำนวน 5 BTC และต้องการใช้เหรียญนี้ตอบรับ
+    ธุรกรรมเพย์จอยน์ หน้าตาธุรกรรมจะเป็น:
   </p>
   <table style='margin: 0 auto;'>
     <thead>
       <tr>
-        <th>INPUTS</th>
+        <th>อินพุท</th>
         <th></th>
-        <th>OUTPUTS</th>
+        <th style='text-align: right;'>เอาท์พุท</th>
       </tr>
     </thead>
     <tbody style='border: 1px solid;'>
@@ -176,11 +176,10 @@
   <outlined-right-arrow class='second' style='bottom: 8cm; position: absolute; right: .8cm;'>
   </outlined-right-arrow>
   <p style='text-align: left;'>
-    So why is this good? The first benefit is <strong>scalability.</strong>
-    By definition, payjoin does some tx batching. In both scenarios, Bob
-    ends up with a total of 6 BTC, but there's a slight difference in how
-    it's represented. In the 1st example, he has 1 BTC from Alice and the
-    5 BTC he already had. With payjoin, he has a single 6 BTC.
+    กรณีที่เห็นนี้ดีกว่าตรงไหน? ผลประโยชน์แรกเลยก็คือ <strong>สมรรถภาพเสกลลิ่ง</strong>
+    โดยนิยามแล้ว เพย์จอยน์ ใช้การรวบมัดธุรกรรม บนปลายทางในทั้งสองกรณี บ๊อบมี 6 BTC เท่ากัน
+    แต่มีผลต่างเล็กน้อยในการแสดงผลลัพธ์ กรณีแรกบ๊อบได้รับเหรียญ 1 BTC จากอลิซและ
+    ถืออีกหนึ่งเหรียญจำนวน 5 BTC อยู่แล้ว ในกรณีเพย์จอยน์บ๊อบถือหนึ่งเหรียญจำนวน 6 BTC
   </p>
 </zine-page>
 
