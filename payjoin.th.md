@@ -80,7 +80,7 @@
 
 <zine-page class='left'>
   <page-num>
-    6
+    หน้า ๖ (6)
   </page-num>
   <p class='text-center' style='margin: .5cm auto; padding: 0 auto;'>
     มีข้อนำเสนอบิ๊พส์สำหรับเพย์จอยน์สามข้อ
@@ -88,28 +88,30 @@
   <p
     class='text-center'
     style='border: 2px black dotted; border-radius: .5cm; margin: .25cm 1.5cm; padding: .25cm .5cm;'>
-    1. BIP-79: Bustapay (2018)
+    1. บิ๊พ-79 บัสต้าเพย์ (คศ. 2018)
     <br />
-    2. BIP-78: Payjoin (2019)
+    2. บิ๊พ-78 เพย์จอยน์ (คศ. 2019)
     <br />
-    3. BIP-77: Payjoin V2 (2023)
+    3. บิ๊พ-77 เพย์จอยน์วี2 (คศ. 2023)
   </p>
-  <p>
-    BIP-77 makes using payjoin easier than ever. Previously,
-    you had to run a secure server -- a high barrier to entry!
-    Now, web clients are used to access untrusted, 3rd party
-    <span style='font-weight: bold;'>
-      directory servers.
-    </span>
-    Directory servers support many users so individuals
-    don't need to run their own. An Oblivious HTTP relay
-    proxy server sits in front to protect user IPs.
-    Participants can even work asynchronously (not being
-    online at the same time) because the directory server
-    buffers messages. BIP-77 also has authenticated
-    encryption, allowing users to take advantage of this
-    optimal architecture without compromising privacy or
-    security.
+  <p class='text-small'>
+    ที่ผ่านมาคุณต้องเปิดเซิร์ฟเว่อร์แน่นหนาปลอดภัยเพื่อใช้งานเพย์จอยน์
+    -- สร้างอุปสรรคในการเข้าถึงอย่างมาก! BIP-77 เป็นข้อนำเสนอที่เจาะจงการใช้งานง่ายกว่าที่เคยเห็นทั้งหมด
+    ในปัจจุบัน คุณแค่ใช้หน้าแอพพลิเคชั่นบนเว็บก็สามารถเชื่อมต่อกับ
+    <strong>
+      ผู้ให้บริการนามสงเคราะห์
+    </strong>
+    ในฐานะบุคคลที่สาม แบบไม่ฝากฝังความไว้ใจได้ ผู้ให้บริการนามสงเคราะห์
+    (directory server) สามารถซัพพอร์ทคนใช้งานในมุมกว้างได้ และลดหย่อนความจำเป็น
+    ของการรันเซอร์วิสรายบุคคล สำหรับผู้ใช้ทั่วไปที่อาจขาดความรู้เชิงเทคนิค
+    นอกจากนั้นเราสามารถเพิ่มเซอร์วิสคั่นกลาง ระหว่างผู้ให้บริการและคนใช้ทั่วไป
+    ด้วยพร็อกซี่หลงลืมไม่สอดส่อง เป็นตัวแทนการส่งสาร HTTP
+    ไม่ให้ตามหาไอพีแอดเดรสของผู้ใช้บริการได้ และแต่ละฝ่ายผู้ใช้บริการ ก็ยังสามารถ
+    ใช้งานกันในรูปแบบ asynchronous ไม่พร้อมกันได้อีกด้วย (ออนไลน์กันต่างคนต่างเวลา)
+    เพราะว่าไดเร็กทอรีเซิร์ฟเวอร์สามารถรับมอบฉันทะในการส่งสาสน์ระหว่างผู้ใช้
+    ท้ายสุดแล้ว บิ๊พ-77 ยังรองรับการเข้ารหัสตรวจสอบสิทธิ์อีกด้วย ผู้ใช้บริการจึงสามารถใช้ประโยชน์
+    ของแบบร่างพึงประสงค์นี้ ในการรักษาความเป็นส่วนตัวของแต่ละบุคคล
+    ไม่บีบรัดให้ผู้ใช้ลดหย่อนหรือละวาง ไพรเวซีและความปลอดภัยแต่เช่นใด
   </p>
 </zine-page>
 
