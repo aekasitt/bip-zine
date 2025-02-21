@@ -186,63 +186,64 @@
 
 <zine-page class='left'>
   <page-num>
-    2
+    หน้า ๒ (2)
   </page-num>
+  <br />
   <table class='contents-centered'>
     <tr class='lean'>
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .72cm; letter-spacing: -.27cm; opacity: .4; transform: scale(1.1) translate(-1.2%);'
+        style='font-size: .72cm; letter-spacing: -.27cm; line-height: .06cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
     <tr style='margin: auto 0;'>
       <td
         class='lean seamless'
-        style='font-size: .72cm; line-height: .3cm; letter-spacing: -.27cm; opacity: .4; transform: rotate(-90deg) scale(1.2) translate(-5%);'
+        style='font-size: .72cm; line-height: .3cm; letter-spacing: -.27cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
         >
-        〜〜〜〜〜
+        〜〜〜〜
       </td>
       <td class='lean seamless text-center' style='font-size: .36cm;'>
-        Payjoin is a technique for batching <bitcoin></bitcoin>
-        transactions while preserving privacy and blockspace.
+        เพย์จอยน์คือวิธีการรวบมัดธุรกรรม <bitcoin></bitcoin>
+        แบบรักษาความเป็นส่วนตัว และประหยัดพื้นที่บล็อก
       </td>
       <td
         class='lean seamless'
-        style='font-size: .72cm; line-height: .3cm; letter-spacing: -.27cm; opacity: .4; transform: rotate(-90deg) scale(1.2) translate(-8%);'
+        style='font-size: .72cm; line-height: .3cm; letter-spacing: -.27cm; opacity: .4; transform: rotate(90deg) translate(-6%);'
         >
-        〜〜〜〜〜
+        〜〜〜〜
       </td>
     </tr>
     <tr class='lean'>
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .72cm; letter-spacing: -.27cm; opacity: .4; transform: scale(1.1) translate(-1.2%);'
+        style='font-size: .72cm; letter-spacing: -.27cm; line-height: .06cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
   <p style='margin: .25cm 0; text-align: left;'>
-    Recall that:
+    หวนนึกว่า:
   </p>
-  <ol style='margin: 0 1cm; text-align: left;'>
-    <li><bitcoin></bitcoin> uses the UTXO model, and</li>
-    <li>coins (transaction inputs and outputs) can be of any value</li>
+  <ol style='margin: 0 .75cm; text-align: left;'>
+    <li><bitcoin></bitcoin> ใช้ระบอบเอาท์พุทธุรกรรมทอน (UTXO) และ</li>
+    <li>เหรียญ (ข้อมูลป้อน และข้อมูลผลลัพธ์จากธุรกรรม) สามารถมีค่าเท่าไรก็ได้</li>
   </ol>
   <p style='margin: .25cm 0; text-align: left;'>
-    Pretend Alice has 5 BTC in her wallet and she sends 1 BTC to Bob.
-    The transaction (tx) looks like this:
+    สมมุติว่าอลิซมีบิทคอยน์จำนวน 5 BTC ในบัญชี และสร้างธุรกรรมส่ง 1 BTC ให้กับบ๊อบ
+    ธุรกรรมที่ถูกสร้าง (tx) จะมีหน้าตาเช่นนี้:
   </p>
   <table style='margin: 0 auto;'>
     <thead>
       <tr>
-        <th>INPUTS</th>
+        <th>อินพุท</th>
         <th></th>
-        <th>OUTPUTS</th>
+        <th style='text-align: right;'>เอาท์พุท</th>
       </tr>
     </thead>
     <tbody style='border: 1px solid;'>
@@ -282,9 +283,9 @@
       </tr>
     </tbody>
   </table>
-  <outlined-right-arrow class='first' style='bottom: 2.6cm; position: absolute; left: .8cm;'>
+  <outlined-right-arrow class='first' style='bottom: 3cm; position: absolute; left: .8cm;'>
   </outlined-right-arrow>
-  <outlined-right-arrow class='second' style='bottom: 2.6cm; position: absolute; right: .8cm;'>
+  <outlined-right-arrow class='second' style='bottom: 3cm; position: absolute; right: .8cm;'>
   </outlined-right-arrow>
 </zine-page>
 
