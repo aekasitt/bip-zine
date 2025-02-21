@@ -46,7 +46,10 @@ This repository is meant to be used with Visual Studio Code with the recommended
 
 ### Acknowledgements
 
-1. "Mali" typeface by [Cadson Demak](https://github.com/cadsondemak/Mali) `SIL Open Font License 1.1`
+1. "Mali" typeface by [Cadson Demak](https://github.com/cadsondemak/Mali) licensed by
+  `SIL Open Font License 1.1` being used on default English version and  Thai translations.
+1. "Coffee and Crafts" typeface by [Misti's Fonts](https://mistifonts.com/coffee-and-crafts/)
+  licensed by `SIL Open Font License 1.1` being used on some vector assets like Payjoin coins.
 1. `bitcoin` logo font "Ubuntu" by [Dalton Maag](https://design.ubuntu.com/font)
   `...distributed under an open licence and you are expressly encouraged to experiment, modify, share and improve.`
 1. [HereComesBitcoin](https://www.herecomesbitcoin.org/) for vector character assets
