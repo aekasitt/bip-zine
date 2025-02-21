@@ -66,7 +66,7 @@
 <zine-page class='right'>
   <img alt="Satsie's Pocket Guide" src='./static/satsies-pocket-guide.th.svg' style='height: 3cm;'>
   <img alt='Graffiti' src='./static/graffiti.svg' style='height: 6.4cm; margin-left: 25px;  margin-bottom: 0; margin-top: 0;'>
-  <h1 style='margin-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0;'>เพย์จอยน์</h1>
+  <h1 class='outlined' style='margin: 0 auto; padding: .5cm .5cm;'>เพย์จอยน์</h1>
   <p class='text-center' style='margin-bottom: 0; margin-top: 0;'>
     นิตยสารกะทัดรัดเรื่องเพย์จอยน์:
     <br />

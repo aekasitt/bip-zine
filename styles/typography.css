@@ -17,10 +17,15 @@ h1, h2, h3 {
   line-height: 1.1;
 }
 h1 {
-  font-size: 1.2cm;
-  font-weight: 600;
-  line-height: 1.2cm;
   border-bottom: 0 none transparent;
+  font-size: 1.6cm;
+  letter-spacing: .24cm;
+  line-height: 1.2cm;
+}
+h1.outlined {
+  font-weight: 400;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: .04cm;
 }
 h2 {
   font-size: .6cm;
