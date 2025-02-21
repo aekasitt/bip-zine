@@ -49,7 +49,7 @@ This repository is meant to be used with Visual Studio Code with the recommended
 1. "Mali" typeface by [Cadson Demak](https://github.com/cadsondemak/Mali) `SIL Open Font License 1.1`
 1. `bitcoin` logo font "Ubuntu" by [Dalton Maag](https://design.ubuntu.com/font)
   `...distributed under an open licence and you are expressly encouraged to experiment, modify, share and improve.`
-1. [HereComesBitcoin](https://www.herecomesbitcoin.org/) for vector assets
+1. [HereComesBitcoin](https://www.herecomesbitcoin.org/) for vector character assets
 1. [SVGRepo](https://www.svgrepo.com/) and [Freepik](https://freepik.com) for various vector assets
 
 ## License
