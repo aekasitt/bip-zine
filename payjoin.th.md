@@ -292,7 +292,7 @@
 
 <zine-page class='right'>
   <page-num>
-    7
+    หน้า ๗ (7)
   </page-num>
   <br />
   <table class='contents-centered' style='margin-left: 0; width: 75%;'>
@@ -334,28 +334,26 @@
     </tr>
   </table>
   <p class='text-small' style='margin: 0 0 .25cm 2.5cm; padding: 0 .25cm;'>
-    Bob: I want to start using payjoin. Can I have a mailbox?
+    บ๊อบ: ผมอยากใช้เพย์จอยน์ เปิดอินบ็อกซ์ให้ผมได้มั้ย ?
   </p>
   <p class='text-small' style='border: 2px black dotted; border-radius: .5cm; margin: 0 0 0 2.5cm; padding: 0 .25cm;'>
-    Directory Server: Sure! Here's your address
+    ผู้ให้บริการนามสงเคราะห์: ได้เลย! นี่คือแอดเดรสของคุณครับ
   </p>
   <p class='text-small' style='margin: .25cm 2.4cm .25cm 0;'>
-    Bob: Hey Alice, anytime you want to send me BTC, use my
-    mailbox so we can make a payjoin
+    บ๊อบ: คุณอลิซครับ ถ้าอยากจะส่ง BTC ให้ผมเมื่อไร ให้ใช้อินบ็อกซ์ตัวนี้นะครับ
+    เราจะร่วมธุรกรรมเพย์จอยน์ไปด้วยกัน
   </p>
   <p class='text-small' style='border: 2px black solid; border-radius: .5cm; padding: 0 .25cm; margin: 0 2.5cm 0 .75cm;'>
-    Alice: Ok. I want to send you BTC. I've started a transaction,
-    and am putting it in your mailbox. Add your input and it will
-    be a payjoin.
+    อลิซ: โอเคค่ะ ฉันต้องการจะส่ง BTC ให้คุณบ๊อบ กำลังตั้งตนขั้นตอนเริ่มแล้วใส่กล่องจดหมาย
+    อินบ็อกซ์ของคุณ เมื่อคุณป้อนข้อมูลฝั่งรับเสร็จสิ้น ก็จะกลายเป็นธุรกรรมเพย์จอยน์
   </p>
   <p class='text-small' style='margin: 2.4cm 0 0 0;'>
-    Bob: Look! I have a payjoin transaction in my mailbox!
-    Let me add my input and put it back in the mailbox
+    บ๊อบ: เจอแล้ว! ผมได้รับธุรกรรมเพย์จอยน์ขั้นต้นในกล่องอินบ็อกซ์
+    ให้ผมป้อนข้อมูลฝ่ายรับ แล้ววางคืนลงไปในกล่อง
   </p>
   <p class='text-small' style='border: 2px black solid; border-radius: .5cm; padding: 0 .25cm; margin: .25cm 2.4cm 0 .75cm;'>
-    Alice: My turn to check the mailbox. The payjoin transaction
-    is in there and it's complete. Now I can broadcast it to the
-    network!
+    อลิซ: นี่มันตาฉันเช็คกล่องจดหมาย ธุรกรรมเพย์จอยน์อยู่ในนั้นด้วยข้อมูล
+    ของสองฝ่ายเพียบพร้อม ถึงเวลาให้ฉันป่าวประกาศ บรอดแคสท์ ขึ้นสู่เน็ตเวิร์กแล้ว
   </p>
   <img
     alt='Mailbox 01'
