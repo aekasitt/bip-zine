@@ -421,35 +421,32 @@
 
 <zine-page class='left'>
   <page-num>
-    4
+    หน้า ๔ (4)
   </page-num>
   <br />
   <p>
-    The way the 1 BTC from Alice was combined with Bob's
-    existing 5 BTC is an example of
-    <span style='font-weight: bold;'>
-      coin consolidation
-    </span>
-    More coins = more fees, so it's best to minimize the
-    number of coins in your wallet. Instead of using one
-    tx to transfer BTC, and another to consolidate coins,
-    payjoin lets you do both at once, increasing tx
-    throughput! That's not all. What if Bob wants to use
-    the BTC from Alice to pay his friend Charlie? Or
-    maybe he wants to open a Lightning channel? Using a
-    tx for extra stuff like this is called a
-    <span style='font-weight: bold;'>tx cut-through.</span>
-    By allowing
-    additional inputs and outputs, payjoin lets you pack
-    more activity into a tx. Alice was already going to
-    send BTC to Bob. Payjoin is just a way to raise the
-    tx throughput and save on fees that would have gone
-    to creating additional txs. It's the
+    การที่จำนวนเหรียญ 1 BTC จากอลิซ ถูกรวบมัดไปกับจำนวนเหรียญแรกเริ่ม
+    5 BTC ของบ๊อบเป็นตัวอย่างของ
+    <strong>
+      การรวมเหรียญประจบ (coin consolidation)
+    </strong>
+    ถือเหรียญมากหลายจ่ายค่าธรรมเนียมมากล้น มันคงดีไม่ใช่น้อย
+    หากเราจำกัดชิ้นเหรียญที่ถือครองให้น้อยลงได้ แทนที่การสร้างธุรกรรมโอนส่ง
+    BTC แล้วรวมเหรียญหลายชิ้นอีกหนึ่งธุรกรรม เพย์จอยน์ทำให้เรายิงปืนนัดเดียวได้นกสองตัว
+    เพิ่มปริมาณงานธุรกรรมล้นหลาม! เท่านี้ยังไม่พอ หากบ๊อบอยากใข้ BTC ที่ได้รับจากอลิซ
+    จ่ายทอดต่อให้ชาร์ลีหล่ะ? หรือเขาอยากรับเพื่อเปิดสัญญาสภาพคล่องไลท์นิ่งใหม่?
+    เราเรียกการกำหนดล่วงหน้าให้กับเอาท์พุทธุรกรรมที่กำลังได้รับแบบนี้ว่า
+    <strong>
+      ธุรกรรมตัดผ่าน (tx cut-through)
+    </strong>
+    เพียงเสริมการอนุมัติอินพุทและเอาท์พุทเพิ่มเติม เพย์จอยน์ทำให้เราบีบอัด
+    เงื่อนไขภายในธุรกรรมได้ ในเมื่ออลิซกำลังส่งมอบ BTC ให้กับบ๊อบแต่แรกเริ่ม
+    เพย์จอยน์เพียงแค่เสริมปริมาณงาน และลดหย่อนค่าธรรมเนียมให้กับผลลัพธ์มติเดิม
+    เว้นธุรกรรมต่อยอดจุกจิก
     <span style='text-decoration: underline'>
-      simplest
+      เรียบง่ายกว่านี้ไม่มีแล้ว
     </span>
-    way to do transaction
-    batching between two people.
+    ที่เราจะรวบมัดธุรกรรมระหว่างสองบุคคลได้
   </p>
 </zine-page>
 
