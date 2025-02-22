@@ -452,26 +452,23 @@
 
 <zine-page class='right'>
   <page-num>
-    5
+    หน้า ๕ (5)
   </page-num>
   <br />
   <h3 class='text-center' style='margin: .32cm 1cm;'>
     ☆ ความเป็นส่วนตัว ☆
   </h3>
   <p>
-    Blockchain surveillance uses heuristics to make assumptions
-    about the nature of a tx, including how much BTC was 
-    transferred, how much the sender got back as change,
-    and who owns which coins. The most common heuristic
-    for tracking users is the assumption that all inputs
-    belong to the sender.
+    การสอดส่องตรวจตราบล็อกเชน มีหลักการใช้ตัวช่วยตัดสินใจ (heuristics)
+    สำหรับการคาดคะเนลักษณะแต่ละธุรกรรม รวมไปถึงจำนวนยอดในการโอนครั้งนั้น ๆ
+    จำนวนทอนที่ผู้ส่งได้รับคืน และเจ้าของปลายมติของเอาท์พุทแต่ละตัวหลังเกิดเหตุ
+    ฮิวริสติกส์ที่ใช้ทั่วไป คือการติ๊ต่างว่าข้อมูลป้อนอินพุทที่มา เป็นของผู้ส่งทั้งหมด
   </p>
   <p>
-    Payjoin lets senders and receivers work together in
-    a way that breaks one or more of these heuristics.
-    After Alice and Bob used payjoin, the assumption that
-    all inputs came from Alice is no longer true. The tx
-    looks the same as if Alice provided multiple inputs.
+    เพย์จอยน์เป็นวิธีที่ให้ผู้ส่งและผู้รับทำงานพ้องกัน ในลักษณะที่พาฮิวริสติกส์ไขว้เขว
+    ไม่มากก็น้อยตัวสำหรับผู้สอดส่อง หลังจากที่อลิซกับบ๊อบใช้เพย์จอยน์สำเร็จแล้ว
+    การคาดคะเนว่าข้อมูลป้อนทั้งหมด มีที่มาจากบัญชีของอลิซผู้ส่ง ไม่ใช่มูลเหตุอีกต่อไป
+    แต่ธุรกรรมดังกล่าว มีลักษณะหน้าตาเหมือนเดิม เปรียบดั่งอลิซป้อนหลายอินพุทใช้เท่านั้นเอง
   </p>
   <table class='contents-centered'>
     <tr>
@@ -479,9 +476,8 @@
         <small-splash-left></small-splash-left>
       </td>
       <td style='font-size: .4cm; letter-spacing: -.01cm; font-weight: 600;'>
-        In this regard, payjoin instantly brings
-        privacy to on-chain transactions, right
-        at the moment of payment.
+        สำหรับเรื่องนี้ เพย์จอยน์ส่งเสริมความเป็นส่วนตัว
+        ของธุรกรรมรายบล็อกในทันที ตั้งแต่วาระการจ่ายเป็นต้น
       </td>
       <td>
         <small-splash-right></small-splash-right>
