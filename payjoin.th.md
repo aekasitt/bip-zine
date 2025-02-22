@@ -2,23 +2,26 @@
   <page-num>
     8
   </page-num>
-  <p>
-    At the time of writing, BIP-77 is still being finalized,
-    and payjoin adoption is relatively low. However the 
-    payjoin team has been hard at work on impressive new
-    tools and docs. There's no time like the present to
-    implement it and improve base layer tx!
+  <br />
+  <p class='text-small'>
+    ณ ช่วงเวลาที่เขียน BIP-77 ยังคงอยู่ในระหว่างการสรุป
+    และการนำเพย์จอยน์ไปดัดแปลงใช้ ยังน้อยกว่าธุรกรรมปกติมากนัก
+    เพียงแต่ว่า ทีมงานนักพัฒนาโปรโตคอลเพย์จอยน์ได้ลงทุนลงแรงในการพัฒนา
+    เครื่องมือและเอกสารชี้แจงมากมาย เพื่ออำนวยความสะดวกผู้ใช้
+    ไม่มีช่วงเวลาดีไปกว่าตอนนี้ที่เราจะเข้าร่วมการพัฒนาต่อยอดธุรกรรมชั้น
+    เบสเลเยอร์ของบิทคอยน์ให้ดีขึ้น
   </p>
   <hr/>
-  <p>
-    Payjoin is an elegant solution for increasing scalability
-    and preserving privacy. It saves block space (lower fees
-    for all!) and weaken blockchain surveillance heuristics.
-    Even those that don't use it benefit, but it's a team
-    effort! The advantages are proportional to the level of
-    adoption. Everyone stands to gain from widespread payjoin
-    use.
+  <p class='text-small'>
+    เพย์จอยน์เป็นคำตอบโจทย์อย่างสง่างาม สำหรับการเพิ่มสมรรถภาพเสกลลิ่ง
+    ที่รักษ์สันโดษสุขให้กับผู้ใช้ โปรโตคอลนี้ช่วยจำกัดการใช้งานพื้นที่รายบล็อก
+    (ตัดค่าธรรมเนียมให้กับทุกคนทั่วหล้า!) และย่อหย่อนการสอดส่องจากผู้หวังร้าย
+    ด้วยตัวช่วยล้าหลัง แม้คนที่ไม่ใช้ธุรกรรมเพย์จอยน์ก็ยังได้รับผลประโยชน์
+    แต่เราต้องไม่ลืมว่าสามัคคีเราอยู่ แยกอยู่เราตาย คุณประโยชน์ที่แท้ทรู
+    มาจากการนำไปใช้ของคนโดยกว้างตามสัดส่วนของธุรกรรมสามัญ
+    เราทุกคนรับผลคลอยได้เมื่อธุรกรรมเพย์จอยน์ได้ความยอมรับแพร่หลาย
   </p>
+  <br />
   <hr/>
   <p class='text-center text-small'>
     ขอบคุณที่ให้เวลาอ่าน! พร้อมไหมไปเรียนต่อ?
