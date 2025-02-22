@@ -1,6 +1,6 @@
 <zine-page class='left'>
   <page-num>
-    8
+    หน้า ๘ (8)
   </page-num>
   <br />
   <p class='text-small'>
