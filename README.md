@@ -16,7 +16,7 @@ This repository is meant to be used with Visual Studio Code with the recommended
 
 - Payjoin
   * [🇬🇧](./payjoin.md) - [pdf](./payjoin.pdf)
-  * [🇹🇭](.) - [pdf](.)
+  * [🇹🇭](./payjoin.th.md) - [pdf](./payjoin.th.pdf)
 
 ## Usage
 
