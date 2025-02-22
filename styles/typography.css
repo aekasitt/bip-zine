@@ -18,11 +18,14 @@ h1, h2, h3 {
 }
 h1 {
   border-bottom: 0 none transparent;
-  font-size: 1.6cm;
-  letter-spacing: .24cm;
-  line-height: 1.2cm;
+  font-size: 1.2cm;
+  font-weight: 600;
+  line-height: 1.4cm;
 }
 h1.outlined {
+  font-size: 1.6cm;
+  letter-spacing: .24cm;
+  line-height: 2cm;
   font-weight: 400;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: .04cm;
