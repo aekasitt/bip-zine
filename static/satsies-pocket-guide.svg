@@ -38,6 +38,7 @@
     </textPath>
   </text>
   <text
+    text-anchor='middle'
     x='150'
     y='100'>
     to
