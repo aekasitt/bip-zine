@@ -21,8 +21,8 @@
   </p>
   <hr/>
   <p class='text-center text-small'>
-    Thanks for reading! Ready to learn more?
-    Want free copies of this and other zines? Visit:
+    ขอบคุณที่ให้เวลาอ่าน! พร้อมไหมไปเรียนต่อ?
+    หากคุณต้องการได้สำเนาฟรีฉบับนี้ และบทเรียนอื่นๆ อย่าลืมไป:
   </p>
   <table class='contents-centered'>
     <tr style='margin: auto 0;'>
