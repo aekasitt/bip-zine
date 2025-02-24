@@ -25,6 +25,8 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: 'pnpm install'
+      - name: Make distribution directory
+        run: 'mkdir dist'
       - name: Unbind "All about BIPs" booklet into image pages
         run: 'pnpm run unbind:bips'
       - name: Unbind "All about BIPs" booklet Thai ver. into image pages
