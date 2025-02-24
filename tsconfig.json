@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "lib": [ "ESNext" ],
+    "module": "CommonJS",
+    "moduleResolution": "NodeNext",
+    "noEmit": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "plugins": [],
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "esnext"
+  },
+  "exclude": [ "node_modules" ],
+  "include": [ "src/**/*.ts" ]
+}

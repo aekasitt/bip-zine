@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel='shortcut icon' src='data-image:base64,' type='image/x-icon'>
+    <meta charset='UTF-8' />
+    <meta httprime-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <script src='https://unpkg.com/vue@2.7.16/dist/vue.js'></script>
+    <script src='https://unpkg.com/flipbook-vue/dist/vue2/flipbook.min.js'></script>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #app {
+        align-items: center;
+        background-color: #333;
+        color: #ccc;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .flipbook .bounding-box {
+        box-shadow: 0 0 10px #1D1D1D;
+      }
+
+      .flipbook .viewport {
+        height: calc(100vh - 60px - 50px) !important;
+        transform: translate(0, 30px);
+        width: 90vw !important;
+      }
+
+     .navbar {
+       align-items: center;
+       display: flex;
+       height: 36px;
+       justify-content: center;
+       padding: 12px 0;
+       width: 100%;
+     }
+
+     .navbar > button {
+       color: #999;
+       font-size: 24px;
+       margin: 12px 0;
+     }
+
+     .navbar > button:not(:first-child) {
+       margin-left: 12px;
+     }
+    </style>
+    <title>
+      Zines
+    </title>
+  </head>
+  <body>
+    <noscript>
+      This page requires JavaScript to work.
+    </noscript>
+    <div id='app'>
+      <div class='navbar'>
+        <button @click.preventDefault='() => zine = "bips"'>
+          BIPS
+        </button>
+        <button @click.preventDefault='() => zine = "bips.th"'>
+          BIPS 🇹🇭
+        </button>
+        <button @click.preventDefault='() => zine = "payjoin"'>
+          Payjoin
+        </button>
+        <button @click.preventDefault='() => zine = "payjoin.th"'>
+          Payjoin 🇹🇭
+        </button>
+      </div>
+      <Flipbook
+        :pages='[
+          null,
+          `/${zine}.1.jpg`,
+          `/${zine}.2.jpg`,
+          `/${zine}.3.jpg`,
+          `/${zine}.4.jpg`,
+          `/${zine}.5.jpg`,
+          `/${zine}.6.jpg`,
+          `/${zine}.7.jpg`,
+          `/${zine}.8.jpg`,
+        ]'
+        class='flipbook'
+      />
+    </div>
+    <script lang='javascript' type='module'>
+      window.onload = () => (new Vue({ data: { zine: 'bips' }, el: '#app' }))
+    </script>
+  </body>
+</html>
