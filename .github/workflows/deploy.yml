@@ -1,0 +1,63 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.7
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.5.0
+      - name: install Nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: 'pnpm'
+      - name: Install dependencies
+        run: pnpm install
+      - name: Unbind "All about BIPs" booklet into image pages
+        run: pnpm run unbind:bips
+      - name: Unbind "All about BIPs" booklet Thai ver. into image pages
+        run: pnpm run unbind:bips.th
+      - name: Unbind "Payjoin" booklet into image pages
+        run: pnpm run unbind:payjoin
+      - name: Unbind "Payjoin" booklet Thai ver. into image pages
+        run: pnpm run unbind:payjoin.th
+      - name: Copy HTML-page serving Single-Page application
+        run: cp src/index.html dist/index.html
+      - name: Upload production-ready build files
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: github-pages
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+
+    permissions:
+      pages: write
+      contents: write
+      id-token: write
+      actions: read
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: ./dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

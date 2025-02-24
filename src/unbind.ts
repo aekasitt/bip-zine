@@ -14,14 +14,14 @@ let unbind = async () => {
     return
   }
   let commands: string[] = [
-    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 1 -l 1 -singlefile -x 0 -y 0 -W 1240 -H 1754 public/${zine}.8`,
-    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 1 -l 1 -singlefile -x 1240 -y 0 -W 1240 -H 1754 public/${zine}.1`,
-    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 1 -l 1 -singlefile -x 0 -y 1754 -W 1240 -H 1754 public/${zine}.6`,
-    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 1 -l 1 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 public/${zine}.3`,
-    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 2 -l 2 -singlefile -x 0 -y 0 -W 1240 -H 1754 public/${zine}.2`,
-    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 2 -l 2 -singlefile -x 1240 -y 0 -W 1240 -H 1754 public/${zine}.7`,
-    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 2 -l 2 -singlefile -x 0 -y 1754 -W 1240 -H 1754 public/${zine}.4`,
-    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 2 -l 2 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 public/${zine}.5`,
+    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 1 -l 1 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/${zine}.8`,
+    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 1 -l 1 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/${zine}.1`,
+    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 1 -l 1 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/${zine}.6`,
+    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 1 -l 1 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/${zine}.3`,
+    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 2 -l 2 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/${zine}.2`,
+    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 2 -l 2 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/${zine}.7`,
+    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 2 -l 2 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/${zine}.4`,
+    `pdftoppm -jpeg -r 300 ${zine}.pdf -f 2 -l 2 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/${zine}.5`,
   ]
   for (let i = 0; i < commands.length; i++) {
     let [stdout, stderr] = execSync(commands[i])
@@ -30,7 +30,7 @@ let unbind = async () => {
       console.log(stdout)
     }
   }
-  console.log(`Images of unbound ${zine}.pdf pages created under public/ directory`)
+  console.log(`Images of unbound ${zine}.pdf pages created under dist/ directory`)
 }
 
 // run
