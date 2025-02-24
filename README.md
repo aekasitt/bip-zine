@@ -1,4 +1,10 @@
-# Satsie's zine translation boilerplate
+# Zines
+
+[![Bitcoin-only](https://img.shields.io/badge/bitcoin-only-FF9900?logo=bitcoin)](https://twentyone.world)
+[![Top](https://img.shields.io/github/languages/top/aekasitt/zines)](https://github.com/aekasitt/zines)
+[![Languages](https://img.shields.io/github/languages/count/aekasitt/zines)](https://github.com/aekasitt/zines)
+[![Last commit](https://img.shields.io/github/last-commit/aekasitt/zines/master)](https://github.com/aekasitt/zines)
+![Lilim Banner](static/zines-banner.svg)
 
 For bitcoiners far & wide, I created this to translate a short zine on BIPs created by the half-Thai
 half-awesome (same half) [@satsie](https://github.com/satsie) found [here.](https://satsie.dev/bips)
