@@ -20,17 +20,17 @@ jobs:
           node-version: 20
           cache: 'pnpm'
       - name: Install dependencies
-        run: pnpm install
+        run: 'pnpm install'
       - name: Unbind "All about BIPs" booklet into image pages
-        run: pnpm run unbind:bips
+        run: 'pnpm run unbind:bips'
       - name: Unbind "All about BIPs" booklet Thai ver. into image pages
-        run: pnpm run unbind:bips.th
+        run: 'pnpm run unbind:bips.th'
       - name: Unbind "Payjoin" booklet into image pages
-        run: pnpm run unbind:payjoin
+        run: 'pnpm run unbind:payjoin'
       - name: Unbind "Payjoin" booklet Thai ver. into image pages
-        run: pnpm run unbind:payjoin.th
+        run: 'pnpm run unbind:payjoin.th'
       - name: Copy HTML-page serving Single-Page application
-        run: cp src/index.html dist/index.html
+        run: 'cp src/index.html dist/index.html'
       - name: Upload production-ready build files
         uses: actions/upload-pages-artifact@v3
         with:
