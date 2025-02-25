@@ -331,7 +331,7 @@
       </td>
     </tr>
   </table>
-  <p class='text-small' style='margin: 0 0 .25cm 2.5cm; padding: 0 .25cm;'>
+  <p class='text-small' style='margin: .5cm 0 .25cm 2.5cm; padding: 0 .25cm;'>
     Bob: I want to start using payjoin. Can I have a mailbox?
   </p>
   <p class='text-small' style='border: 2px black dotted; border-radius: .5cm; margin: 0 0 0 2.5cm; padding: 0 .25cm;'>

@@ -336,7 +336,7 @@
       </td>
     </tr>
   </table>
-  <p class='text-small' style='margin: 0 0 .25cm 2.5cm; padding: 0 .25cm;'>
+  <p class='text-small' style='margin: .5cm 0 .25cm 2.5cm; padding: 0 .25cm;'>
     บ๊อบ: ผมอยากใช้เพย์จอยน์ เปิดอินบ็อกซ์ให้ผมได้มั้ย ?
   </p>
   <p class='text-small' style='border: 2px black dotted; border-radius: .5cm; margin: 0 0 0 2.5cm; padding: 0 .25cm;'>
