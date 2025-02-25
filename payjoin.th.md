@@ -475,9 +475,13 @@
       <td>
         <small-splash-left></small-splash-left>
       </td>
-      <td style='font-size: .4cm; letter-spacing: -.01cm; font-weight: 600;'>
-        สำหรับเรื่องนี้ เพย์จอยน์ส่งเสริมความเป็นส่วนตัว
-        ของธุรกรรมรายบล็อกในทันที ตั้งแต่วาระการจ่ายเป็นต้น
+      <td>
+        <p class='lean text-center'>
+          <strong>
+            สำหรับเรื่องนี้ เพย์จอยน์ส่งเสริมความเป็นส่วนตัว
+            ของธุรกรรมรายบล็อกในทันที ตั้งแต่วาระการจ่ายเป็นต้น
+          </strong>
+        </p>
       </td>
       <td>
         <small-splash-right></small-splash-right>
