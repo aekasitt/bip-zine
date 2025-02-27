@@ -26,14 +26,14 @@ jobs:
           pdftoppm -jpeg -r 300 bips.pdf -f 2 -l 2 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/bips.5
       - name: Unbind 'All about BIPs' booklet Espanol version into image pages
         run: |
-          pdftoppm -jpeg -r 300 bips.es.pdf -f 1 -l 1 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/bips.es.8
-          pdftoppm -jpeg -r 300 bips.es.pdf -f 1 -l 1 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/bips.es.1
-          pdftoppm -jpeg -r 300 bips.es.pdf -f 1 -l 1 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/bips.es.6
-          pdftoppm -jpeg -r 300 bips.es.pdf -f 1 -l 1 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/bips.es.3
-          pdftoppm -jpeg -r 300 bips.es.pdf -f 2 -l 2 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/bips.es.2
-          pdftoppm -jpeg -r 300 bips.es.pdf -f 2 -l 2 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/bips.es.7
-          pdftoppm -jpeg -r 300 bips.es.pdf -f 2 -l 2 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/bips.es.4
-          pdftoppm -jpeg -r 300 bips.es.pdf -f 2 -l 2 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/bips.es.5
+          pdftoppm -jpeg -r 300 bips.esp.pdf -f 1 -l 1 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/bips.esp.8
+          pdftoppm -jpeg -r 300 bips.esp.pdf -f 1 -l 1 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/bips.esp.1
+          pdftoppm -jpeg -r 300 bips.esp.pdf -f 1 -l 1 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/bips.esp.6
+          pdftoppm -jpeg -r 300 bips.esp.pdf -f 1 -l 1 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/bips.esp.3
+          pdftoppm -jpeg -r 300 bips.esp.pdf -f 2 -l 2 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/bips.esp.2
+          pdftoppm -jpeg -r 300 bips.esp.pdf -f 2 -l 2 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/bips.esp.7
+          pdftoppm -jpeg -r 300 bips.esp.pdf -f 2 -l 2 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/bips.esp.4
+          pdftoppm -jpeg -r 300 bips.esp.pdf -f 2 -l 2 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/bips.esp.5
       - name: Unbind 'All about BIPs' booklet Thai ver. into image pages
         run: |
           pdftoppm -jpeg -r 300 bips.th.pdf -f 1 -l 1 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/bips.th.8
