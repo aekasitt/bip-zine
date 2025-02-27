@@ -12,7 +12,6 @@
         margin: 0;
         padding: 0;
       }
-
       #app {
         align-items: center;
         background-color: #333;
@@ -22,17 +21,14 @@
         height: 100vh;
         overflow: hidden;
       }
-
       .flipbook .bounding-box {
         box-shadow: 0 0 10px #1D1D1D;
       }
-
       .flipbook .viewport {
         height: calc(100vh - 60px - 50px) !important;
         transform: translate(0, 30px);
         width: 90vw !important;
       }
-
     .navbar {
       align-items: center;
       display: flex;
@@ -43,7 +39,6 @@
       padding: 12px 0;
       width: 100%;
     }
-
     .navbar > button {
       align-items: center;
       color: #999;
@@ -51,6 +46,19 @@
       font-size: 24px;
       gap: 4px;
       height: 36px;
+    }
+    @media only screen and (max-width: 600px) {
+      .flipbook .viewport {
+        height: calc(80vh - 80px - 0px) !important;
+      }
+      .navbar {
+        padding-bottom: 48px;
+      }
+    }
+    @media only screen and (max-width: 300px) {
+      .navbar {
+        padding-bottom: 64px;
+      }
     }
     </style>
     <title>
