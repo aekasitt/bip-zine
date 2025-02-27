@@ -19,6 +19,7 @@ This repository is meant to be used with Visual Studio Code with the recommended
 - All about BIPs
   * [🇬🇧](./bips.md) - [pdf](./bips.pdf)
   * [🇹🇭](./bips.th.md) - [pdf](./bips.th.pdf)
+  * [🇪🇸](./bips.esp.md) - [pdf](./bips.esp.pdf)
 
 - Payjoin
   * [🇬🇧](./payjoin.md) - [pdf](./payjoin.pdf)
@@ -26,7 +27,7 @@ This repository is meant to be used with Visual Studio Code with the recommended
 
 ## Usage
 
-1. Create a copy from the Markdown file, for exampple we will use `bip.md` containing original
+1. Create a copy from the Markdown file, for example we will use `bip.md` containing original
   contents to your desired language. (Recommend renaming to `bip.xx.md` with xx denoting language,
   following after Thai translated zine convention, `bip.th.md`)
 1. One paragraph at a time, translate the contents of the "All about BIPs" zine to desired language.
